@@ -1,0 +1,302 @@
+##fileformat=VCFv4.3
+##fileDate=20240703
+##source=syri
+##ALT=<ID=SYN,Description="Syntenic region">
+##ALT=<ID=INV,Description="Inversion">
+##ALT=<ID=TRANS,Description="Translocation">
+##ALT=<ID=INVTR,Description="Inverted Translocation">
+##ALT=<ID=DUP,Description="Duplication">
+##ALT=<ID=INVDP,Description="Inverted Duplication">
+##ALT=<ID=SYNAL,Description="Syntenic alignment">
+##ALT=<ID=INVAL,Description="Inversion alignment">
+##ALT=<ID=TRANSAL,Description="Translocation alignment">
+##ALT=<ID=INVTRAL,Description="Inverted Translocation alignment">
+##ALT=<ID=DUPAL,Description="Duplication alignment">
+##ALT=<ID=INVDPAL,Description="Inverted Duplication alignment">
+##ALT=<ID=HDR,Description="Highly diverged regions">
+##ALT=<ID=INS,Description="Insertion in non-reference genome">
+##ALT=<ID=DEL,Description="Deletion in non-reference genome">
+##ALT=<ID=CPG,Description="Copy gain in non-reference genome">
+##ALT=<ID=CPL,Description="Copy loss in non-reference genome">
+##ALT=<ID=SNP,Description="Single nucleotide polymorphism">
+##ALT=<ID=TDM,Description="Tandem repeat">
+##ALT=<ID=NOTAL,Description="Not Aligned region">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position on reference genome">
+##INFO=<ID=ChrB,Number=1,Type=String,Description="Chromoosme ID on the non-reference genome">
+##INFO=<ID=StartB,Number=1,Type=Integer,Description="Start position on non-reference genome">
+##INFO=<ID=EndB,Number=1,Type=Integer,Description="End position on non-reference genome">
+##INFO=<ID=Parent,Number=1,Type=String,Description="ID of the parent SR">
+##INFO=<ID=VarType,Number=1,Type=String,Description="Start position on non-reference genome">
+##INFO=<ID=DupType,Number=1,Type=String,Description="Copy gain or loss in the non-reference genome">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+contig_1	1	NOTAL1	N	<NOTAL>	.	PASS	END=1;ChrB=.;StartB=.;EndB=.;Parent=.;VarType=.;DupType=.
+contig_1	2	SYNAL1	N	<SYNAL>	.	PASS	END=549437;ChrB=contig_1;StartB=1;EndB=549414;Parent=SYN1;VarType=.;DupType=.
+contig_1	2	SYN1	N	<SYN>	.	PASS	END=1181607;ChrB=contig_1;StartB=1;EndB=1176686;Parent=.;VarType=SR;DupType=-
+contig_1	5433	DEL6	ag	a	.	PASS	END=5434;ChrB=contig_1;StartB=5432;EndB=5432;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	5811	DEL7	ag	a	.	PASS	END=5812;ChrB=contig_1;StartB=5809;EndB=5809;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	16729	DEL8	ag	a	.	PASS	END=16730;ChrB=contig_1;StartB=16726;EndB=16726;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	21316	DEL9	at	a	.	PASS	END=21317;ChrB=contig_1;StartB=21312;EndB=21312;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	24725	DEL10	gt	g	.	PASS	END=24726;ChrB=contig_1;StartB=24720;EndB=24720;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	54142	DEL11	ct	c	.	PASS	END=54143;ChrB=contig_1;StartB=54136;EndB=54136;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	56933	INS12	t	tC	.	PASS	END=56933;ChrB=contig_1;StartB=56926;EndB=56927;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	63622	DEL13	ca	c	.	PASS	END=63623;ChrB=contig_1;StartB=63616;EndB=63616;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	76959	DEL14	gc	g	.	PASS	END=76960;ChrB=contig_1;StartB=76952;EndB=76952;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	110452	DEL15	ag	a	.	PASS	END=110453;ChrB=contig_1;StartB=110444;EndB=110444;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	117803	DEL16	gt	g	.	PASS	END=117804;ChrB=contig_1;StartB=117794;EndB=117794;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	124098	DEL17	ga	g	.	PASS	END=124099;ChrB=contig_1;StartB=124088;EndB=124088;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	132527	DEL18	ac	a	.	PASS	END=132528;ChrB=contig_1;StartB=132516;EndB=132516;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	134528	DEL19	gtt	g	.	PASS	END=134530;ChrB=contig_1;StartB=134516;EndB=134516;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	180636	DEL20	gt	g	.	PASS	END=180637;ChrB=contig_1;StartB=180622;EndB=180622;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	181599	DEL21	ag	a	.	PASS	END=181600;ChrB=contig_1;StartB=181584;EndB=181584;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	184178	DEL22	ga	g	.	PASS	END=184179;ChrB=contig_1;StartB=184162;EndB=184162;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	242875	SNP23	a	T	.	PASS	END=242875;ChrB=contig_1;StartB=242858;EndB=242858;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	315989	DEL24	gc	g	.	PASS	END=315990;ChrB=contig_1;StartB=315972;EndB=315972;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	318583	DEL25	ct	c	.	PASS	END=318584;ChrB=contig_1;StartB=318565;EndB=318565;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	325214	DEL26	ga	g	.	PASS	END=325215;ChrB=contig_1;StartB=325195;EndB=325195;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	356399	INS27	t	tA	.	PASS	END=356399;ChrB=contig_1;StartB=356379;EndB=356380;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	367356	DEL28	tg	t	.	PASS	END=367357;ChrB=contig_1;StartB=367337;EndB=367337;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	373712	DEL29	at	a	.	PASS	END=373713;ChrB=contig_1;StartB=373692;EndB=373692;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	377975	SNP30	g	A	.	PASS	END=377975;ChrB=contig_1;StartB=377954;EndB=377954;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	404659	DEL31	ga	g	.	PASS	END=404660;ChrB=contig_1;StartB=404638;EndB=404638;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	404817	DEL32	cg	c	.	PASS	END=404818;ChrB=contig_1;StartB=404795;EndB=404795;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	412255	DEL33	ca	c	.	PASS	END=412256;ChrB=contig_1;StartB=412232;EndB=412232;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	426638	DEL34	ca	c	.	PASS	END=426639;ChrB=contig_1;StartB=426614;EndB=426614;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	427210	DEL35	ct	c	.	PASS	END=427211;ChrB=contig_1;StartB=427185;EndB=427185;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	435586	DEL36	ga	g	.	PASS	END=435587;ChrB=contig_1;StartB=435560;EndB=435560;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	439486	DEL37	ct	c	.	PASS	END=439487;ChrB=contig_1;StartB=439459;EndB=439459;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	444706	DEL38	at	a	.	PASS	END=444707;ChrB=contig_1;StartB=444678;EndB=444678;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	476924	INS39	a	aAAAGCGGCG	.	PASS	END=476924;ChrB=contig_1;StartB=476895;EndB=476904;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	484190	DEL40	gt	g	.	PASS	END=484191;ChrB=contig_1;StartB=484170;EndB=484170;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	498595	DEL41	ca	c	.	PASS	END=498596;ChrB=contig_1;StartB=498574;EndB=498574;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	546564	DEL42	ca	c	.	PASS	END=546565;ChrB=contig_1;StartB=546542;EndB=546542;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	549437	DEL1	N	<DEL>	.	PASS	END=554375;ChrB=contig_1;StartB=549414;EndB=549414;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	554376	SYNAL2	N	<SYNAL>	.	PASS	END=1181607;ChrB=contig_1;StartB=549414;EndB=1176686;Parent=SYN1;VarType=.;DupType=.
+contig_1	555077	INS43	t	tA	.	PASS	END=555077;ChrB=contig_1;StartB=550115;EndB=550116;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	585673	DEL44	ag	a	.	PASS	END=585674;ChrB=contig_1;StartB=580712;EndB=580712;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	585909	DEL45	ag	a	.	PASS	END=585910;ChrB=contig_1;StartB=580947;EndB=580947;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	617321	DEL46	gaaa	g	.	PASS	END=617324;ChrB=contig_1;StartB=612358;EndB=612358;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	631130	DEL47	ta	t	.	PASS	END=631131;ChrB=contig_1;StartB=626164;EndB=626164;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	644481	SNP48	g	A	.	PASS	END=644481;ChrB=contig_1;StartB=639514;EndB=639514;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	675234	DEL49	tc	t	.	PASS	END=675235;ChrB=contig_1;StartB=670267;EndB=670267;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	679482	DEL50	ct	c	.	PASS	END=679483;ChrB=contig_1;StartB=674514;EndB=674514;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	686127	DEL51	ca	c	.	PASS	END=686128;ChrB=contig_1;StartB=681158;EndB=681158;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	693649	DEL52	gt	g	.	PASS	END=693650;ChrB=contig_1;StartB=688679;EndB=688679;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	705275	INS53	c	cGCGTTTTT	.	PASS	END=705275;ChrB=contig_1;StartB=700304;EndB=700312;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	723608	DEL54	gtt	g	.	PASS	END=723610;ChrB=contig_1;StartB=718645;EndB=718645;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	783459	INS55	c	cCTGTAAGACTCAATGTAAGCCGTGCCAAAATATGATGGCTAGGACGAGCTA	.	PASS	END=783459;ChrB=contig_1;StartB=778494;EndB=778545;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	847443	INS56	c	cA	.	PASS	END=847443;ChrB=contig_1;StartB=842529;EndB=842530;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	860763	DEL57	ca	c	.	PASS	END=860764;ChrB=contig_1;StartB=855850;EndB=855850;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	863390	DEL58	ct	c	.	PASS	END=863391;ChrB=contig_1;StartB=858476;EndB=858476;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	869683	INS59	a	aT	.	PASS	END=869683;ChrB=contig_1;StartB=864768;EndB=864769;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	913979	SNP60	g	T	.	PASS	END=913979;ChrB=contig_1;StartB=909065;EndB=909065;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914105	SNP61	g	A	.	PASS	END=914105;ChrB=contig_1;StartB=909191;EndB=909191;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914447	SNP62	t	C	.	PASS	END=914447;ChrB=contig_1;StartB=909533;EndB=909533;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914457	SNP63	a	T	.	PASS	END=914457;ChrB=contig_1;StartB=909543;EndB=909543;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914811	SNP64	g	A	.	PASS	END=914811;ChrB=contig_1;StartB=909897;EndB=909897;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914886	SNP65	t	A	.	PASS	END=914886;ChrB=contig_1;StartB=909972;EndB=909972;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914887	SNP66	g	T	.	PASS	END=914887;ChrB=contig_1;StartB=909973;EndB=909973;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	914938	SNP67	c	T	.	PASS	END=914938;ChrB=contig_1;StartB=910024;EndB=910024;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	927440	DEL68	ag	a	.	PASS	END=927441;ChrB=contig_1;StartB=922526;EndB=922526;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	934515	DEL69	ag	a	.	PASS	END=934516;ChrB=contig_1;StartB=929600;EndB=929600;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	939697	INS70	c	cT	.	PASS	END=939697;ChrB=contig_1;StartB=934781;EndB=934782;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	964590	DEL71	ct	c	.	PASS	END=964591;ChrB=contig_1;StartB=959675;EndB=959675;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1036121	DEL72	ca	c	.	PASS	END=1036122;ChrB=contig_1;StartB=1031205;EndB=1031205;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1042121	DEL73	gc	g	.	PASS	END=1042122;ChrB=contig_1;StartB=1037204;EndB=1037204;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1080875	INS74	g	gA	.	PASS	END=1080875;ChrB=contig_1;StartB=1075957;EndB=1075958;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1103313	DEL75	ga	g	.	PASS	END=1103314;ChrB=contig_1;StartB=1098396;EndB=1098396;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1107792	DEL76	at	a	.	PASS	END=1107793;ChrB=contig_1;StartB=1102874;EndB=1102874;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1133550	DEL77	ct	c	.	PASS	END=1133551;ChrB=contig_1;StartB=1128631;EndB=1128631;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1164583	DEL78	ag	a	.	PASS	END=1164584;ChrB=contig_1;StartB=1159663;EndB=1159663;Parent=SYN1;VarType=ShV;DupType=.
+contig_1	1181597	INV3	N	<INV>	.	PASS	END=1472182;ChrB=contig_1;StartB=1189751;EndB=1480327;Parent=.;VarType=SR;DupType=-
+contig_1	1181597	INVAL7	N	<INVAL>	.	PASS	END=1472182;ChrB=contig_1;StartB=1480327;EndB=1189751;Parent=INV3;VarType=.;DupType=.
+contig_1	1199533	DEL79	ct	c	.	PASS	END=1199534;ChrB=contig_1;StartB=1462391;EndB=1462391;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1231804	DEL80	ga	g	.	PASS	END=1231805;ChrB=contig_1;StartB=1430121;EndB=1430121;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1233889	DEL81	ag	a	.	PASS	END=1233890;ChrB=contig_1;StartB=1428037;EndB=1428037;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1238550	DEL82	ag	a	.	PASS	END=1238551;ChrB=contig_1;StartB=1423377;EndB=1423377;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1261242	DEL83	cg	c	.	PASS	END=1261243;ChrB=contig_1;StartB=1400686;EndB=1400686;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1266097	DEL84	tc	t	.	PASS	END=1266098;ChrB=contig_1;StartB=1395832;EndB=1395832;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1320295	DEL85	ga	g	.	PASS	END=1320296;ChrB=contig_1;StartB=1341635;EndB=1341635;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1324328	DEL86	ca	c	.	PASS	END=1324329;ChrB=contig_1;StartB=1337603;EndB=1337603;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1325931	INS87	a	aG	.	PASS	END=1325931;ChrB=contig_1;StartB=1336000;EndB=1336001;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1330360	DEL88	ag	a	.	PASS	END=1330361;ChrB=contig_1;StartB=1331571;EndB=1331571;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1391518	DEL89	ag	a	.	PASS	END=1391519;ChrB=contig_1;StartB=1270414;EndB=1270414;Parent=INV3;VarType=ShV;DupType=.
+contig_1	1472174	TRANS4	N	<TRANS>	.	PASS	END=1485233;ChrB=contig_1;StartB=1176686;EndB=1189746;Parent=.;VarType=SR;DupType=-
+contig_1	1472174	TRANSAL8	N	<TRANSAL>	.	PASS	END=1485233;ChrB=contig_1;StartB=1176686;EndB=1189746;Parent=TRANS4;VarType=.;DupType=.
+contig_1	1472544	INS90	g	gT	.	PASS	END=1472544;ChrB=contig_1;StartB=1177056;EndB=1177057;Parent=TRANS4;VarType=ShV;DupType=.
+contig_1	1485234	NOTAL2	N	<NOTAL>	.	PASS	END=1485904;ChrB=.;StartB=.;EndB=.;Parent=.;VarType=.;DupType=.
+contig_1	1485905	SYNAL3	N	<SYNAL>	.	PASS	END=1968467;ChrB=contig_1;StartB=1480327;EndB=1962888;Parent=SYN2;VarType=.;DupType=.
+contig_1	1485905	SYN2	N	<SYN>	.	PASS	END=3977333;ChrB=contig_1;StartB=1480327;EndB=3955874;Parent=.;VarType=SR;DupType=-
+contig_1	1486125	DEL91	ga	g	.	PASS	END=1486126;ChrB=contig_1;StartB=1480547;EndB=1480547;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1487327	DEL92	ag	a	.	PASS	END=1487328;ChrB=contig_1;StartB=1481748;EndB=1481748;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1489263	DEL93	cg	c	.	PASS	END=1489264;ChrB=contig_1;StartB=1483683;EndB=1483683;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1491703	INS94	t	tA	.	PASS	END=1491703;ChrB=contig_1;StartB=1486122;EndB=1486123;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1504078	DEL95	ca	c	.	PASS	END=1504079;ChrB=contig_1;StartB=1498498;EndB=1498498;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1514841	DEL96	ga	g	.	PASS	END=1514842;ChrB=contig_1;StartB=1509260;EndB=1509260;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1516696	DEL97	ga	g	.	PASS	END=1516697;ChrB=contig_1;StartB=1511114;EndB=1511114;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1563104	INS98	g	gA	.	PASS	END=1563104;ChrB=contig_1;StartB=1557521;EndB=1557522;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1580909	DEL99	ag	a	.	PASS	END=1580910;ChrB=contig_1;StartB=1575327;EndB=1575327;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1589442	DEL100	ag	a	.	PASS	END=1589443;ChrB=contig_1;StartB=1583859;EndB=1583859;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1601325	DEL101	tc	t	.	PASS	END=1601326;ChrB=contig_1;StartB=1595741;EndB=1595741;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1608866	DEL102	ga	g	.	PASS	END=1608867;ChrB=contig_1;StartB=1603281;EndB=1603281;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1608988	SNP103	g	A	.	PASS	END=1608988;ChrB=contig_1;StartB=1603402;EndB=1603402;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1611557	DEL104	tc	t	.	PASS	END=1611558;ChrB=contig_1;StartB=1605971;EndB=1605971;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1617716	DEL105	tc	t	.	PASS	END=1617717;ChrB=contig_1;StartB=1612129;EndB=1612129;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1651209	DEL106	ta	t	.	PASS	END=1651210;ChrB=contig_1;StartB=1645621;EndB=1645621;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1651952	SNP107	g	A	.	PASS	END=1651952;ChrB=contig_1;StartB=1646363;EndB=1646363;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1657578	INS108	t	tCAGTTTTCC	.	PASS	END=1657578;ChrB=contig_1;StartB=1651989;EndB=1651998;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1733325	DEL109	ag	a	.	PASS	END=1733326;ChrB=contig_1;StartB=1727745;EndB=1727745;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1741272	INS110	c	cA	.	PASS	END=1741272;ChrB=contig_1;StartB=1735691;EndB=1735692;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1754789	DEL111	ct	c	.	PASS	END=1754790;ChrB=contig_1;StartB=1749209;EndB=1749209;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1768338	DEL112	ta	t	.	PASS	END=1768339;ChrB=contig_1;StartB=1762757;EndB=1762757;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1777795	DEL113	ag	a	.	PASS	END=1777796;ChrB=contig_1;StartB=1772213;EndB=1772213;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1796641	DEL114	gt	g	.	PASS	END=1796642;ChrB=contig_1;StartB=1791058;EndB=1791058;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1876625	DEL115	at	a	.	PASS	END=1876626;ChrB=contig_1;StartB=1871041;EndB=1871041;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1884118	DEL116	at	a	.	PASS	END=1884119;ChrB=contig_1;StartB=1878533;EndB=1878533;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1912927	INS117	c	cT	.	PASS	END=1912927;ChrB=contig_1;StartB=1907341;EndB=1907342;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1923328	DEL118	gc	g	.	PASS	END=1923329;ChrB=contig_1;StartB=1917743;EndB=1917743;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1923452	DEL119	tc	t	.	PASS	END=1923453;ChrB=contig_1;StartB=1917866;EndB=1917866;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1926510	DEL120	ac	a	.	PASS	END=1926511;ChrB=contig_1;StartB=1920923;EndB=1920923;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1934982	INS121	t	tCGGATTCAG	.	PASS	END=1934982;ChrB=contig_1;StartB=1929394;EndB=1929403;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1968467	DEL2	N	<DEL>	.	PASS	END=1977701;ChrB=contig_1;StartB=1962888;EndB=1962888;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	1977702	SYNAL4	N	<SYNAL>	.	PASS	END=2643257;ChrB=contig_1;StartB=1962889;EndB=2628432;Parent=SYN2;VarType=.;DupType=.
+contig_1	2013368	DEL122	tc	t	.	PASS	END=2013369;ChrB=contig_1;StartB=1998555;EndB=1998555;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2019935	INS123	c	cT	.	PASS	END=2019935;ChrB=contig_1;StartB=2005121;EndB=2005122;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2022011	INS124	g	gC	.	PASS	END=2022011;ChrB=contig_1;StartB=2007198;EndB=2007199;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2036605	DEL125	ca	c	.	PASS	END=2036606;ChrB=contig_1;StartB=2021793;EndB=2021793;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2042047	DEL126	ga	g	.	PASS	END=2042048;ChrB=contig_1;StartB=2027234;EndB=2027234;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2046677	DEL127	gt	g	.	PASS	END=2046678;ChrB=contig_1;StartB=2031863;EndB=2031863;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2064473	DEL128	ga	g	.	PASS	END=2064474;ChrB=contig_1;StartB=2049658;EndB=2049658;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2129736	DEL129	ga	g	.	PASS	END=2129737;ChrB=contig_1;StartB=2114920;EndB=2114920;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2148999	DEL130	ct	c	.	PASS	END=2149000;ChrB=contig_1;StartB=2134182;EndB=2134182;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2167770	DEL131	ct	c	.	PASS	END=2167771;ChrB=contig_1;StartB=2152952;EndB=2152952;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2169053	DEL132	ag	a	.	PASS	END=2169054;ChrB=contig_1;StartB=2154234;EndB=2154234;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2169123	DEL133	tc	t	.	PASS	END=2169124;ChrB=contig_1;StartB=2154303;EndB=2154303;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2181877	DEL134	gt	g	.	PASS	END=2181878;ChrB=contig_1;StartB=2167056;EndB=2167056;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2200627	SNP135	g	A	.	PASS	END=2200627;ChrB=contig_1;StartB=2185805;EndB=2185805;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2239737	INS136	c	cA	.	PASS	END=2239737;ChrB=contig_1;StartB=2224915;EndB=2224916;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2293069	INS137	a	aTTATGAATT	.	PASS	END=2293069;ChrB=contig_1;StartB=2278248;EndB=2278257;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2293178	DEL138	ct	c	.	PASS	END=2293179;ChrB=contig_1;StartB=2278366;EndB=2278366;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2304496	DEL139	gaa	g	.	PASS	END=2304498;ChrB=contig_1;StartB=2289683;EndB=2289683;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2317413	DEL140	ct	c	.	PASS	END=2317414;ChrB=contig_1;StartB=2302598;EndB=2302598;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2332185	DEL141	tg	t	.	PASS	END=2332186;ChrB=contig_1;StartB=2317369;EndB=2317369;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2333866	SNP142	t	C	.	PASS	END=2333866;ChrB=contig_1;StartB=2319049;EndB=2319049;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2382392	DEL143	tg	t	.	PASS	END=2382393;ChrB=contig_1;StartB=2367575;EndB=2367575;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2383842	INS144	a	aG	.	PASS	END=2383842;ChrB=contig_1;StartB=2369024;EndB=2369025;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2383853	INS145	c	cG	.	PASS	END=2383853;ChrB=contig_1;StartB=2369036;EndB=2369037;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2388701	DEL146	ta	t	.	PASS	END=2388702;ChrB=contig_1;StartB=2373885;EndB=2373885;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2415927	DEL147	cg	c	.	PASS	END=2415928;ChrB=contig_1;StartB=2401110;EndB=2401110;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2431776	DEL148	ag	a	.	PASS	END=2431777;ChrB=contig_1;StartB=2416958;EndB=2416958;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2460063	DEL149	ga	g	.	PASS	END=2460064;ChrB=contig_1;StartB=2445244;EndB=2445244;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2489851	DEL150	tc	t	.	PASS	END=2489852;ChrB=contig_1;StartB=2475031;EndB=2475031;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2519663	DEL151	ac	a	.	PASS	END=2519664;ChrB=contig_1;StartB=2504842;EndB=2504842;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2522252	DEL152	tc	t	.	PASS	END=2522253;ChrB=contig_1;StartB=2507430;EndB=2507430;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2523081	DEL153	ca	c	.	PASS	END=2523082;ChrB=contig_1;StartB=2508258;EndB=2508258;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2528674	INS154	g	gT	.	PASS	END=2528674;ChrB=contig_1;StartB=2513850;EndB=2513851;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2555088	INS155	a	aT	.	PASS	END=2555088;ChrB=contig_1;StartB=2540265;EndB=2540266;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2555131	DEL156	ag	a	.	PASS	END=2555132;ChrB=contig_1;StartB=2540309;EndB=2540309;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2580196	DEL157	tg	t	.	PASS	END=2580197;ChrB=contig_1;StartB=2565373;EndB=2565373;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2597894	DEL158	ta	t	.	PASS	END=2597895;ChrB=contig_1;StartB=2583070;EndB=2583070;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2605368	DEL159	ga	g	.	PASS	END=2605369;ChrB=contig_1;StartB=2590543;EndB=2590543;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2617984	INS160	g	gC	.	PASS	END=2617984;ChrB=contig_1;StartB=2603158;EndB=2603159;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2643257	DEL3	N	<DEL>	.	PASS	END=2647466;ChrB=contig_1;StartB=2628432;EndB=2628432;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2647467	SYNAL5	N	<SYNAL>	.	PASS	END=3939927;ChrB=contig_1;StartB=2628433;EndB=3920778;Parent=SYN2;VarType=.;DupType=.
+contig_1	2648555	DEL161	tc	t	.	PASS	END=2648556;ChrB=contig_1;StartB=2629521;EndB=2629521;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2655624	DEL162	tccc	t	.	PASS	END=2655627;ChrB=contig_1;StartB=2636589;EndB=2636589;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2667645	DEL163	ca	c	.	PASS	END=2667646;ChrB=contig_1;StartB=2648607;EndB=2648607;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2668419	DEL164	gc	g	.	PASS	END=2668420;ChrB=contig_1;StartB=2649380;EndB=2649380;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2669325	INS165	c	cA	.	PASS	END=2669325;ChrB=contig_1;StartB=2650285;EndB=2650286;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2696224	DEL166	gtgc	g	.	PASS	END=2696227;ChrB=contig_1;StartB=2677185;EndB=2677185;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2696228	SNP167	t	C	.	PASS	END=2696228;ChrB=contig_1;StartB=2677186;EndB=2677186;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2704302	DEL168	ga	g	.	PASS	END=2704303;ChrB=contig_1;StartB=2685260;EndB=2685260;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2744093	DEL169	ta	t	.	PASS	END=2744094;ChrB=contig_1;StartB=2725050;EndB=2725050;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2750749	DEL170	ga	g	.	PASS	END=2750750;ChrB=contig_1;StartB=2731705;EndB=2731705;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2782618	DEL171	tcc	t	.	PASS	END=2782620;ChrB=contig_1;StartB=2763573;EndB=2763573;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2784112	DEL172	ga	g	.	PASS	END=2784113;ChrB=contig_1;StartB=2765065;EndB=2765065;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2788903	DEL173	ca	c	.	PASS	END=2788904;ChrB=contig_1;StartB=2769855;EndB=2769855;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2797431	DEL174	ca	c	.	PASS	END=2797432;ChrB=contig_1;StartB=2778382;EndB=2778382;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2863582	DEL175	ag	a	.	PASS	END=2863583;ChrB=contig_1;StartB=2844532;EndB=2844532;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2868566	DEL176	ac	a	.	PASS	END=2868567;ChrB=contig_1;StartB=2849515;EndB=2849515;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2880017	DEL177	tc	t	.	PASS	END=2880018;ChrB=contig_1;StartB=2860965;EndB=2860965;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2898490	DEL178	ac	a	.	PASS	END=2898491;ChrB=contig_1;StartB=2879437;EndB=2879437;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2902539	DEL179	tc	t	.	PASS	END=2902540;ChrB=contig_1;StartB=2883485;EndB=2883485;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2922908	DEL180	ga	g	.	PASS	END=2922909;ChrB=contig_1;StartB=2903853;EndB=2903853;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2932197	INS181	c	cT	.	PASS	END=2932197;ChrB=contig_1;StartB=2913141;EndB=2913142;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2932531	INS182	c	cT	.	PASS	END=2932531;ChrB=contig_1;StartB=2913476;EndB=2913477;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2933468	INS183	t	tC	.	PASS	END=2933468;ChrB=contig_1;StartB=2914414;EndB=2914415;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2936252	DEL184	ct	c	.	PASS	END=2936253;ChrB=contig_1;StartB=2917199;EndB=2917199;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2944283	INS185	c	cT	.	PASS	END=2944283;ChrB=contig_1;StartB=2925229;EndB=2925230;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2949496	DEL186	ca	c	.	PASS	END=2949497;ChrB=contig_1;StartB=2930443;EndB=2930443;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2954336	DEL187	gc	g	.	PASS	END=2954337;ChrB=contig_1;StartB=2935282;EndB=2935282;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	2959374	DEL188	ga	g	.	PASS	END=2959375;ChrB=contig_1;StartB=2940319;EndB=2940319;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3010826	DEL189	cg	c	.	PASS	END=3010827;ChrB=contig_1;StartB=2991770;EndB=2991770;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3029297	DEL190	gt	g	.	PASS	END=3029298;ChrB=contig_1;StartB=3010240;EndB=3010240;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3033209	DEL191	caa	c	.	PASS	END=3033211;ChrB=contig_1;StartB=3014151;EndB=3014151;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3033471	DEL192	ct	c	.	PASS	END=3033472;ChrB=contig_1;StartB=3014411;EndB=3014411;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3088008	DEL193	tc	t	.	PASS	END=3088009;ChrB=contig_1;StartB=3068947;EndB=3068947;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3127365	DEL194	ct	c	.	PASS	END=3127366;ChrB=contig_1;StartB=3108303;EndB=3108303;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3128708	DEL195	ag	a	.	PASS	END=3128709;ChrB=contig_1;StartB=3109645;EndB=3109645;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3130332	DEL196	cg	c	.	PASS	END=3130333;ChrB=contig_1;StartB=3111268;EndB=3111268;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3144863	DEL197	ga	g	.	PASS	END=3144864;ChrB=contig_1;StartB=3125798;EndB=3125798;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3178596	DEL198	ca	c	.	PASS	END=3178597;ChrB=contig_1;StartB=3159530;EndB=3159530;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3215556	DEL199	ca	c	.	PASS	END=3215557;ChrB=contig_1;StartB=3196489;EndB=3196489;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3229358	DEL200	gc	g	.	PASS	END=3229359;ChrB=contig_1;StartB=3210290;EndB=3210290;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3256824	DEL201	ta	t	.	PASS	END=3256825;ChrB=contig_1;StartB=3237755;EndB=3237755;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3265820	INS202	c	cT	.	PASS	END=3265820;ChrB=contig_1;StartB=3246750;EndB=3246751;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3272370	DEL203	ga	g	.	PASS	END=3272371;ChrB=contig_1;StartB=3253301;EndB=3253301;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3328493	DEL204	ga	g	.	PASS	END=3328494;ChrB=contig_1;StartB=3309423;EndB=3309423;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3332223	DEL205	tc	t	.	PASS	END=3332224;ChrB=contig_1;StartB=3313152;EndB=3313152;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3336687	DEL206	cg	c	.	PASS	END=3336688;ChrB=contig_1;StartB=3317615;EndB=3317615;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3343233	DEL207	tc	t	.	PASS	END=3343234;ChrB=contig_1;StartB=3324160;EndB=3324160;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3344137	DEL208	cg	c	.	PASS	END=3344138;ChrB=contig_1;StartB=3325063;EndB=3325063;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3346652	INS209	t	tA	.	PASS	END=3346652;ChrB=contig_1;StartB=3327577;EndB=3327578;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3348906	DEL210	gt	g	.	PASS	END=3348907;ChrB=contig_1;StartB=3329832;EndB=3329832;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3353944	DEL211	ca	c	.	PASS	END=3353945;ChrB=contig_1;StartB=3334869;EndB=3334869;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3355590	INS212	a	aAACACGGTC	.	PASS	END=3355590;ChrB=contig_1;StartB=3336514;EndB=3336523;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3372823	INS213	g	gA	.	PASS	END=3372823;ChrB=contig_1;StartB=3353756;EndB=3353757;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3384772	INS214	t	tA	.	PASS	END=3384772;ChrB=contig_1;StartB=3365706;EndB=3365707;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3384790	DEL215	ga	g	.	PASS	END=3384791;ChrB=contig_1;StartB=3365725;EndB=3365725;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3389085	DEL216	taa	t	.	PASS	END=3389087;ChrB=contig_1;StartB=3370019;EndB=3370019;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3432968	DEL217	at	a	.	PASS	END=3432969;ChrB=contig_1;StartB=3413900;EndB=3413900;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3487618	DEL218	gc	g	.	PASS	END=3487619;ChrB=contig_1;StartB=3468549;EndB=3468549;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3491681	INS219	g	gA	.	PASS	END=3491681;ChrB=contig_1;StartB=3472611;EndB=3472612;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3504049	DEL220	ct	c	.	PASS	END=3504050;ChrB=contig_1;StartB=3484980;EndB=3484980;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515278	SNP221	c	T	.	PASS	END=3515278;ChrB=contig_1;StartB=3496208;EndB=3496208;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515279	SNP222	g	C	.	PASS	END=3515279;ChrB=contig_1;StartB=3496209;EndB=3496209;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515280	SNP223	a	C	.	PASS	END=3515280;ChrB=contig_1;StartB=3496210;EndB=3496210;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515283	SNP224	a	G	.	PASS	END=3515283;ChrB=contig_1;StartB=3496213;EndB=3496213;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515286	SNP225	t	G	.	PASS	END=3515286;ChrB=contig_1;StartB=3496216;EndB=3496216;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515287	SNP226	c	G	.	PASS	END=3515287;ChrB=contig_1;StartB=3496217;EndB=3496217;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515288	SNP227	g	A	.	PASS	END=3515288;ChrB=contig_1;StartB=3496218;EndB=3496218;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3515290	SNP228	t	C	.	PASS	END=3515290;ChrB=contig_1;StartB=3496220;EndB=3496220;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3519218	DEL229	at	a	.	PASS	END=3519219;ChrB=contig_1;StartB=3500148;EndB=3500148;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3571252	INS230	a	aT	.	PASS	END=3571252;ChrB=contig_1;StartB=3552181;EndB=3552182;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3655224	DEL231	ca	c	.	PASS	END=3655225;ChrB=contig_1;StartB=3636154;EndB=3636154;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3683447	INS232	c	cCACGACGCG	.	PASS	END=3683447;ChrB=contig_1;StartB=3664376;EndB=3664385;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3693171	INS233	g	gT	.	PASS	END=3693171;ChrB=contig_1;StartB=3674109;EndB=3674110;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3725387	DEL234	ct	c	.	PASS	END=3725388;ChrB=contig_1;StartB=3706326;EndB=3706326;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3746823	DEL235	ca	c	.	PASS	END=3746824;ChrB=contig_1;StartB=3727761;EndB=3727761;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3746909	DEL236	tc	t	.	PASS	END=3746910;ChrB=contig_1;StartB=3727846;EndB=3727846;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3772792	DEL237	gt	g	.	PASS	END=3772793;ChrB=contig_1;StartB=3753728;EndB=3753728;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3776036	INS238	g	gC	.	PASS	END=3776036;ChrB=contig_1;StartB=3756971;EndB=3756972;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3787133	SNP239	t	G	.	PASS	END=3787133;ChrB=contig_1;StartB=3768069;EndB=3768069;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3796609	INS240	a	aT	.	PASS	END=3796609;ChrB=contig_1;StartB=3777545;EndB=3777546;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3806588	DEL241	at	a	.	PASS	END=3806589;ChrB=contig_1;StartB=3787525;EndB=3787525;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3807923	DEL242	tg	t	.	PASS	END=3807924;ChrB=contig_1;StartB=3788859;EndB=3788859;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3825959	DEL243	ag	a	.	PASS	END=3825960;ChrB=contig_1;StartB=3806894;EndB=3806894;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3827728	DEL244	ta	t	.	PASS	END=3827729;ChrB=contig_1;StartB=3808662;EndB=3808662;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3828764	SNP245	c	T	.	PASS	END=3828764;ChrB=contig_1;StartB=3809697;EndB=3809697;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3832702	DEL246	ct	c	.	PASS	END=3832703;ChrB=contig_1;StartB=3813635;EndB=3813635;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3836721	DEL247	ga	g	.	PASS	END=3836722;ChrB=contig_1;StartB=3817653;EndB=3817653;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3845371	INS248	c	cATACATCGG	.	PASS	END=3845371;ChrB=contig_1;StartB=3826302;EndB=3826311;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3856638	DEL249	ct	c	.	PASS	END=3856639;ChrB=contig_1;StartB=3837578;EndB=3837578;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3861008	DEL250	ag	a	.	PASS	END=3861009;ChrB=contig_1;StartB=3841947;EndB=3841947;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3865524	DEL251	ga	g	.	PASS	END=3865525;ChrB=contig_1;StartB=3846462;EndB=3846462;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3867438	DEL252	ccgccttctgcgtcgctacaatggattcgattcccctcgggccagagccaacaagatgagtagctcttcatgggtgaacggct	c	.	PASS	END=3867520;ChrB=contig_1;StartB=3848375;EndB=3848375;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3870389	DEL253	tc	t	.	PASS	END=3870390;ChrB=contig_1;StartB=3851244;EndB=3851244;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3884380	SNP254	c	T	.	PASS	END=3884380;ChrB=contig_1;StartB=3865234;EndB=3865234;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3897388	DEL255	at	a	.	PASS	END=3897389;ChrB=contig_1;StartB=3878242;EndB=3878242;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3902334	DEL256	taa	t	.	PASS	END=3902336;ChrB=contig_1;StartB=3883187;EndB=3883187;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3915406	DEL257	ta	t	.	PASS	END=3915407;ChrB=contig_1;StartB=3896257;EndB=3896257;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3924823	INS258	a	aT	.	PASS	END=3924823;ChrB=contig_1;StartB=3905673;EndB=3905674;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3939927	DEL4	N	<DEL>	.	PASS	END=3942236;ChrB=contig_1;StartB=3920778;EndB=3920778;Parent=SYN2;VarType=ShV;DupType=.
+contig_1	3942237	SYNAL6	N	<SYNAL>	.	PASS	END=3977333;ChrB=contig_1;StartB=3920779;EndB=3955874;Parent=SYN2;VarType=.;DupType=.

@@ -1,0 +1,32 @@
+07/03/2024 12:58:52: INFO: Start running SyRI_IS
+07/03/2024 12:58:52: INFO: CMD: ../src/SyRI_IS/connect_multiple_runs_plotsr.py exp/multiple_runs11/tmp exp/multiple_runs11/export --tmp exp/multiple_runs11/tmp/merged/L01 --out exp/multiple_runs11/export/merged/L01 -p L01-1 -p L01-2 -p L01-3 -p L01-4 -i MDS42_IS1 -i FACS -i MA_G08 -i MA_G20 --log exp/multiple_runs11/log/merged/L01 --plotsr  -W 3 -H 4 -f 10 --cfg ./20231001_plotsr.cfg --xlim 4490000 --noyaxislabel --noxaxislabel
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
+07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
+07/03/2024 12:58:52: INFO: syri output files merged and saved to exp/multiple_runs11/tmp/merged/L01/syri
+07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.local.out
+07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.local.out
+07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.local.out
+07/03/2024 12:58:52: INFO: 16 fasta files found
+07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.0.fasta
+07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.1.fasta
+07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.2.fasta
+07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.3.fasta
+07/03/2024 12:58:52: INFO: Detected 267 ISs. IS positions merged and saved to exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed
+07/03/2024 12:58:52: INFO: IS tags merged and saved to exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed
+07/03/2024 12:58:52: INFO: plotsr --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out --genomes exp/multiple_runs11/tmp/merged/L01/genome_info.txt --markers exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed -s 100 -o exp/multiple_runs11/export/merged/L01/merged_plotsr.pdf -W 3 -H 4 -f 10 --cfg ./20231001_plotsr.cfg --xlim 4490000 --noyaxislabel --noxaxislabel
+07/03/2024 12:58:52: DEBUG: matplotlib data path: /home/kanai/miniconda3/envs/syri_env3/lib/python3.9/site-packages/matplotlib/mpl-data
+07/03/2024 12:58:52: DEBUG: CONFIGDIR=/home/kanai/.config/matplotlib
+07/03/2024 12:58:52: DEBUG: interactive is False
+07/03/2024 12:58:52: DEBUG: platform is linux
+07/03/2024 12:58:52: DEBUG: CACHEDIR=/home/kanai/.cache/matplotlib
+07/03/2024 12:58:52: DEBUG: Using fontManager instance from /home/kanai/.cache/matplotlib/fontlist-v330.json

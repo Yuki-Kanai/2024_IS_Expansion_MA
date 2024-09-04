@@ -1,0 +1,9 @@
+*.fasta
+blastdb
+figures
+is_variants_analysis
+combine_pdf
+**L[0-1][0-9]-[1-4]
+**L[0-1][0-9]-[1-4]_*.*
+!**L01-1
+!**L01-1_*.*

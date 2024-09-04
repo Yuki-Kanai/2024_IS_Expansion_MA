@@ -1,0 +1,144 @@
+# BLASTN 2.14.0+
+# Query: L01-1.1.0.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.0.dir	1	2999	473907	476905	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.0.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.0.tail	1	2999	479999	482997	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.1.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.1.dir	1974	2063	547666	547577	90	1.82e-15	82.4	80.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.1.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.1.tail	311	2999	555600	558289	2690	0.0	4844	99.963
+# BLASTN 2.14.0+
+# Query: L01-1.1.2.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 5 hits found
+L01-1_genome.2_m	L01-1.1.2.dir	1	2998	1182956	1185953	2998	0.0	5407	100.000
+L01-1_genome.2_m	L01-1.1.2.dir	782	1003	1348021	1347800	222	6.35e-34	144	74.324
+L01-1_genome.2_m	L01-1.1.2.dir	773	1020	3540750	3540502	249	1.71e-28	126	71.486
+L01-1_genome.2_m	L01-1.1.2.dir	813	1013	2642080	2642280	201	5.95e-28	124	73.632
+L01-1_genome.2_m	L01-1.1.2.dir	900	1016	1290647	1290530	118	2.70e-13	75.2	74.576
+# BLASTN 2.14.0+
+# Query: L01-1.1.2.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 2 hits found
+L01-1_genome.2_m	L01-1.1.2.tail	2	2999	1203686	1200689	2998	0.0	5407	100.000
+L01-1_genome.2_m	L01-1.1.2.tail	1	222	1086662	1086441	222	7.75e-14	77.0	67.568
+# BLASTN 2.14.0+
+# Query: L01-1.1.3.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.3.dir	1	2999	1403356	1406354	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.3.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 3 hits found
+L01-1_genome.2_m	L01-1.1.3.tail	1	2999	1409448	1412446	2999	0.0	5409	100.000
+L01-1_genome.2_m	L01-1.1.3.tail	2432	2871	2113783	2113344	442	7.24e-46	184	69.683
+L01-1_genome.2_m	L01-1.1.3.tail	2432	2736	2932916	2933220	306	4.57e-42	171	72.876
+# BLASTN 2.14.0+
+# Query: L01-1.1.4.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.4.dir	1	2999	1497454	1500452	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.4.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.4.tail	1	2999	1505116	1508114	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.5.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 3 hits found
+L01-1_genome.2_m	L01-1.1.5.dir	1	2999	1990864	1993862	2999	0.0	5409	100.000
+L01-1_genome.2_m	L01-1.1.5.dir	19	2590	1251892	1249327	2592	0.0	1173	70.486
+L01-1_genome.2_m	L01-1.1.5.dir	19	1463	1988398	1989842	1453	0.0	688	70.819
+# BLASTN 2.14.0+
+# Query: L01-1.1.5.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 2 hits found
+L01-1_genome.2_m	L01-1.1.5.tail	1	2999	1998527	2001524	2999	0.0	5401	99.967
+L01-1_genome.2_m	L01-1.1.5.tail	845	1122	3710346	3710623	278	2.53e-26	119	69.424
+# BLASTN 2.14.0+
+# Query: L01-1.1.6.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.6.dir	1	2999	2310896	2313894	2999	0.0	5409	100.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.6.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 8 hits found
+L01-1_genome.2_m	L01-1.1.6.tail	1	2999	2318559	2321557	2999	0.0	5409	100.000
+L01-1_genome.2_m	L01-1.1.6.tail	171	697	2530971	2530451	530	4.27e-74	278	71.887
+L01-1_genome.2_m	L01-1.1.6.tail	163	700	1206870	1207424	563	4.57e-61	234	69.627
+L01-1_genome.2_m	L01-1.1.6.tail	1049	1365	2530152	2529866	319	1.15e-49	196	73.041
+L01-1_genome.2_m	L01-1.1.6.tail	231	702	873727	873256	483	4.57e-42	170	68.530
+L01-1_genome.2_m	L01-1.1.6.tail	1047	1364	1207688	1207963	320	2.53e-26	119	67.188
+L01-1_genome.2_m	L01-1.1.6.tail	207	405	1897492	1897294	199	4.58e-23	107	71.859
+L01-1_genome.2_m	L01-1.1.6.tail	1191	1290	872892	872793	100	7.75e-14	77.9	77.000
+# BLASTN 2.14.0+
+# Query: L01-1.1.7.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 3 hits found
+L01-1_genome.2_m	L01-1.1.7.dir	1	2999	3376918	3379915	2999	0.0	5401	99.967
+L01-1_genome.2_m	L01-1.1.7.dir	1407	2757	2221620	2220270	1369	1.07e-176	618	70.562
+L01-1_genome.2_m	L01-1.1.7.dir	1410	2759	3088166	3086817	1364	1.30e-175	615	70.748
+# BLASTN 2.14.0+
+# Query: L01-1.1.7.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 4 hits found
+L01-1_genome.2_m	L01-1.1.7.tail	1	2999	3383009	3386007	2999	0.0	5409	100.000
+L01-1_genome.2_m	L01-1.1.7.tail	252	2479	1242574	1240350	2235	0.0	1558	75.660
+L01-1_genome.2_m	L01-1.1.7.tail	255	427	2908421	2908593	173	5.95e-28	123	75.723
+L01-1_genome.2_m	L01-1.1.7.tail	1	228	547902	548129	228	8.27e-20	96.9	69.298
+# BLASTN 2.14.0+
+# Query: L01-1.1.8.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.8.dir	1	2999	3874462	3877459	2999	0.0	5401	99.967
+# BLASTN 2.14.0+
+# Query: L01-1.1.8.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.8.tail	1	2999	3880553	3883551	2999	0.0	5405	99.967
+# BLASTN 2.14.0+
+# Query: L01-1.1.9.dir
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 1 hits found
+L01-1_genome.2_m	L01-1.1.9.dir	1	2999	3972020	3975017	2999	0.0	5401	99.967
+# BLASTN 2.14.0+
+# Query: L01-1.1.9.tail
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue, bit score, % identity
+# 2 hits found
+L01-1_genome.2_m	L01-1.1.9.tail	1	2999	3979682	3982680	2999	0.0	5409	100.000
+L01-1_genome.2_m	L01-1.1.9.tail	153	681	3428380	3427852	537	2.89e-19	96.0	65.177
+# BLAST processed 20 queries

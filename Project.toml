@@ -1,0 +1,11 @@
+[deps]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"

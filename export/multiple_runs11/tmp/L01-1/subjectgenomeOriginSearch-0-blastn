@@ -1,0 +1,7 @@
+# BLASTN 2.14.0+
+# Query: L01-1_genome.2_m  (4,014,776 bp)
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_G20.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 1 hits found
+contig_1	L01-1_genome.2_m	1	300	2038698	2038997	300	6.14e-155
+# BLAST processed 1 queries

@@ -1,0 +1,10 @@
+insert_id,pos,position_status,sv,closest_original_id,closest_original_distance
+3,552533,new,unknown,4,4634
+6,560570,new,unknown,5,311
+7,711466,new,simple_insertion,5,151207
+10,1205560,new,unknown,9,13060
+15,1675567,new,simple_insertion,14,171676
+16,1952965,new,simple_insertion,17,33484
+21,2661333,new,unknown,20,350186
+22,2665537,new,unknown,20,354390
+25,3704602,new,simple_insertion,26,161929

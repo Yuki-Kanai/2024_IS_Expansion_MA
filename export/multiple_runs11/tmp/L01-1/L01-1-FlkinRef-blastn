@@ -1,0 +1,431 @@
+# BLASTN 2.14.0+
+# Query: 0_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	0_r	96	3191	1272607	1275701	3096	0.0
+MDS42(AP012306)	0_r	1	98	476835	476933	99	4.82e-42
+# BLASTN 2.14.0+
+# Query: 0_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	0_f	100	3191	1275701	1272611	3092	0.0
+MDS42(AP012306)	0_f	1	99	477023	476925	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 1_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	1_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	1_r	1	98	548878	548975	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 1_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	1_f	94	3191	1275706	1272611	3098	0.0
+MDS42(AP012306)	1_f	1	99	554475	554377	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 2_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	2_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	2_r	1	98	705187	705284	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 2_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	2_f	100	3191	1275701	1272611	3092	0.0
+MDS42(AP012306)	2_f	1	99	705375	705277	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 3_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	3_f	99	3191	1275701	1272610	3093	0.0
+MDS42(AP012306)	3_f	1	101	1058215	1058315	101	7.65e-46
+# BLASTN 2.14.0+
+# Query: 3_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	3_r	96	3191	1272606	1275700	3096	0.0
+MDS42(AP012306)	3_r	1	99	1058402	1058304	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 4_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	4_f	1668	4758	1275701	1272610	3092	0.0
+MDS42(AP012306)	4_f	99	1667	1275701	1274133	1570	0.0
+MDS42(AP012306)	4_f	1	98	1181509	1181606	98	4.86e-44
+# BLASTN 2.14.0+
+# Query: 4_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	4_r	100	3190	1272610	1275701	3092	0.0
+MDS42(AP012306)	4_r	3191	4758	1274133	1275700	1569	0.0
+MDS42(AP012306)	4_r	1	99	1291914	1291816	99	1.39e-44
+# BLASTN 2.14.0+
+# Query: 5_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	5_f	99	3190	1275701	1272610	3092	0.0
+MDS42(AP012306)	5_f	1	98	1475177	1475274	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 5_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	5_r	100	3190	1272610	1275700	3091	0.0
+MDS42(AP012306)	5_r	1	99	1488230	1488328	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 6_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	6_r	99	3190	1272610	1275701	3092	0.0
+MDS42(AP012306)	6_r	1	98	1475363	1475266	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 6_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	6_f	100	3190	1275701	1272611	3091	0.0
+MDS42(AP012306)	6_f	1	99	1291726	1291824	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 7_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 1 hits found
+MDS42(AP012306)	7_f	1	3191	1275799	1272610	3191	0.0
+# BLASTN 2.14.0+
+# Query: 7_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 1 hits found
+MDS42(AP012306)	7_r	1	3191	1272511	1275700	3191	0.0
+# BLASTN 2.14.0+
+# Query: 8_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	8_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	8_r	3192	4761	1274133	1275701	1570	0.0
+MDS42(AP012306)	8_r	1	98	1181695	1181598	98	4.86e-44
+# BLASTN 2.14.0+
+# Query: 8_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	8_f	1670	4761	1275701	1272611	3092	0.0
+MDS42(AP012306)	8_f	100	1669	1275701	1274133	1570	0.0
+MDS42(AP012306)	8_f	1	99	1489095	1488997	99	1.39e-44
+# BLASTN 2.14.0+
+# Query: 9_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	9_r	98	3190	1272609	1275701	3094	0.0
+MDS42(AP012306)	9_r	1	99	1660031	1660129	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 9_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	9_f	100	3190	1275701	1272611	3092	0.0
+MDS42(AP012306)	9_f	1	99	1661623	1661525	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 10_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	10_r	96	3190	1272607	1275701	3096	0.0
+MDS42(AP012306)	10_r	1	98	1727208	1727305	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 10_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	10_f	100	3190	1275701	1272611	3092	0.0
+MDS42(AP012306)	10_f	1	100	1727395	1727296	100	2.67e-45
+# BLASTN 2.14.0+
+# Query: 11_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	11_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	11_r	1	98	1755827	1755924	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 11_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	11_f	100	3191	1275701	1272611	3092	0.0
+MDS42(AP012306)	11_f	1	99	1756014	1755916	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 12_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	12_f	99	3191	1275701	1272610	3093	0.0
+MDS42(AP012306)	12_f	1	98	1772500	1772597	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 12_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	12_r	100	3191	1272610	1275700	3092	0.0
+MDS42(AP012306)	12_r	1	99	1773291	1773193	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 13_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	13_r	98	3190	1272609	1275701	3094	0.0
+MDS42(AP012306)	13_r	1	98	1819469	1819566	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 13_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	13_f	100	3190	1275701	1272611	3092	0.0
+MDS42(AP012306)	13_f	1	99	1908130	1908032	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 14_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	14_f	99	3187	1275701	1272610	3092	0.0
+MDS42(AP012306)	14_f	1	98	1937986	1938083	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 14_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	14_r	100	3187	1272610	1275700	3091	0.0
+MDS42(AP012306)	14_r	1	99	1938173	1938075	99	9.30e-45
+# BLASTN 2.14.0+
+# Query: 15_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	15_f	99	3190	1275701	1272610	3092	0.0
+MDS42(AP012306)	15_f	1	99	1971462	1971560	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 15_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	15_r	100	3190	1272610	1275700	3091	0.0
+MDS42(AP012306)	15_r	1	99	1980892	1980794	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 16_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	16_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	16_r	1	106	2119566	2119671	106	3.25e-44
+# BLASTN 2.14.0+
+# Query: 16_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	16_f	99	3191	1275702	1272611	3093	0.0
+MDS42(AP012306)	16_f	1	99	2119753	2119655	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 17_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	17_f	97	3190	1275703	1272610	3095	0.0
+MDS42(AP012306)	17_f	1	98	2163182	2163279	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 17_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	17_r	97	3190	1272607	1275700	3095	0.0
+MDS42(AP012306)	17_r	1	99	2163369	2163271	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 18_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	18_f	1669	4760	1275701	1272610	3092	0.0
+MDS42(AP012306)	18_f	97	1668	1275703	1274133	1572	0.0
+MDS42(AP012306)	18_f	1	99	2204115	2204213	99	1.39e-44
+# BLASTN 2.14.0+
+# Query: 18_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	18_r	99	3191	1272609	1275701	3093	0.0
+MDS42(AP012306)	18_r	3192	4760	1274133	1275700	1569	0.0
+MDS42(AP012306)	18_r	1	99	2296072	2296170	99	1.39e-44
+# BLASTN 2.14.0+
+# Query: 19_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	19_r	94	3191	1272605	1275701	3098	0.0
+MDS42(AP012306)	19_r	1	98	2215420	2215323	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 19_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	19_f	100	3191	1275701	1272611	3092	0.0
+MDS42(AP012306)	19_f	1	99	2304567	2304469	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 20_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	20_r	99	3191	1272610	1275701	3093	0.0
+MDS42(AP012306)	20_r	1	98	2387424	2387521	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 20_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	20_f	98	3191	1275703	1272611	3094	0.0
+MDS42(AP012306)	20_f	1	99	2392107	2392009	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 21_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	21_f	99	3191	1275701	1272610	3093	0.0
+MDS42(AP012306)	21_f	1	98	2646252	2646349	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 21_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	21_r	99	3191	1272609	1275700	3093	0.0
+MDS42(AP012306)	21_r	1	100	2652246	2652147	100	2.67e-45
+# BLASTN 2.14.0+
+# Query: 22_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	22_r	98	3191	1272609	1275701	3094	0.0
+MDS42(AP012306)	22_r	1	98	2800133	2800230	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 22_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	22_f	100	3191	1275701	1272611	3092	0.0
+MDS42(AP012306)	22_f	1	99	2800320	2800222	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 23_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	23_r	98	3190	1272609	1275701	3094	0.0
+MDS42(AP012306)	23_r	1	98	3039428	3039525	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 23_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	23_f	100	3190	1275701	1272611	3092	0.0
+MDS42(AP012306)	23_f	1	99	3052198	3052296	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 24_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	24_f	99	3191	1275701	1272610	3093	0.0
+MDS42(AP012306)	24_f	3192	5310	1273583	1275701	2119	0.0
+MDS42(AP012306)	24_f	1	98	3039614	3039517	98	5.43e-44
+# BLASTN 2.14.0+
+# Query: 24_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	24_r	2219	5310	1272610	1275700	3092	0.0
+MDS42(AP012306)	24_r	100	2218	1275701	1273583	2119	0.0
+MDS42(AP012306)	24_r	1	99	3070833	3070735	99	1.55e-44
+# BLASTN 2.14.0+
+# Query: 25_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	25_r	99	3190	1272610	1275701	3093	0.0
+MDS42(AP012306)	25_r	1	98	3358594	3358691	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 25_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	25_f	97	3190	1275704	1272611	3095	0.0
+MDS42(AP012306)	25_f	1	99	3358781	3358683	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 26_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	26_f	1669	4761	1275701	1272610	3093	0.0
+MDS42(AP012306)	26_f	99	1668	1275701	1274133	1570	0.0
+MDS42(AP012306)	26_f	1	98	3686451	3686548	98	4.86e-44
+# BLASTN 2.14.0+
+# Query: 26_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	26_r	97	3192	1272607	1275701	3096	0.0
+MDS42(AP012306)	26_r	3193	4761	1274133	1275700	1569	0.0
+MDS42(AP012306)	26_r	1	99	3686808	3686710	99	1.39e-44
+# BLASTN 2.14.0+
+# Query: 27_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	27_r	96	3192	1272607	1275701	3097	0.0
+MDS42(AP012306)	27_r	1	105	3816987	3817092	106	9.32e-45
+# BLASTN 2.14.0+
+# Query: 27_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	27_f	99	3192	1275702	1272611	3094	0.0
+MDS42(AP012306)	27_f	1	99	3817174	3817076	99	9.32e-45
+# BLASTN 2.14.0+
+# Query: 28_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	28_f	98	3189	1275702	1272610	3093	0.0
+MDS42(AP012306)	28_f	1	98	3848376	3848473	98	3.25e-44
+# BLASTN 2.14.0+
+# Query: 28_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 2 hits found
+MDS42(AP012306)	28_r	100	3189	1272610	1275700	3091	0.0
+MDS42(AP012306)	28_r	1	99	3848563	3848465	99	9.31e-45
+# BLASTN 2.14.0+
+# Query: 29_f flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	29_f	1668	4760	1275701	1272610	3093	0.0
+MDS42(AP012306)	29_f	99	1667	1275701	1274133	1570	0.0
+MDS42(AP012306)	29_f	1	98	3942922	3943019	98	4.86e-44
+# BLASTN 2.14.0+
+# Query: 29_r flank
+# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+# Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
+# 3 hits found
+MDS42(AP012306)	29_r	100	3192	1272610	1275701	3093	0.0
+MDS42(AP012306)	29_r	3193	4760	1274133	1275700	1569	0.0
+MDS42(AP012306)	29_r	1	99	3945427	3945329	99	1.39e-44
+# BLAST processed 60 queries

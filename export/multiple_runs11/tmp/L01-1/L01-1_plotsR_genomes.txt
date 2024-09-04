@@ -1,0 +1,4 @@
+exp/multiple_runs11/tmp/L01-1/L01-1_genome.masked.IS.0.fasta	MDS42_IS1	lw:1.5
+exp/multiple_runs11/tmp/L01-1/L01-1_genome.masked.IS.1.fasta	L01_Anc_m1	lw:1.5
+exp/multiple_runs11/tmp/L01-1/L01-1_genome.masked.IS.2.fasta	L01-1_G8_m	lw:1.5
+exp/multiple_runs11/tmp/L01-1/L01-1_genome.masked.IS.3.fasta	L01-1_G20	lw:1.5

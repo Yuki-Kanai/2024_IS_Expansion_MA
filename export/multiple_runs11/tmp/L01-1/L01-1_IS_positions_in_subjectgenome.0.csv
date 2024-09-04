@@ -1,0 +1,2 @@
+subject_id,query_id,q_start,q_end,s_start,s_end,alignment_length,evalue,Crossing,IS_strand,IS_pos,Complete
+MDS42(AP012306),IS1,1,3092,1275701,1272610,3092,0.0,False,reverse,1274155.5,True

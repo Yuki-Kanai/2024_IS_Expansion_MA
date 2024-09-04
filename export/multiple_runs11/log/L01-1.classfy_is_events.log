@@ -1,0 +1,77 @@
+07/03/2024 12:59:40: INFO: Start analyzing using SyRI_IS output
+07/03/2024 12:59:40: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 1 --qid 2
+07/03/2024 12:59:40: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.2.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+07/03/2024 12:59:40: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 12:59:40: INFO: 32 out of 32 flanks aligned reference sequence well.
+07/03/2024 12:59:40: INFO: GetInsertions: Detected 27 IS insertions.
+07/03/2024 12:59:41: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_2
+07/03/2024 12:59:41: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+07/03/2024 12:59:41: INFO: Calculating depth...
+07/03/2024 12:59:45: INFO: Depth calculation finished
+07/03/2024 12:59:45: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam. Saved to exp/multiple_runs11/export/classify_IS_events/L01-1/L01-1_genome.2.depth_interval.csv
+07/03/2024 12:59:46: INFO: Start analyzing using SyRI_IS output
+07/03/2024 12:59:46: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 2 --qid 3
+07/03/2024 12:59:46: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.3.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+07/03/2024 12:59:48: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 12:59:48: INFO: 60 out of 60 flanks aligned reference sequence well.
+07/03/2024 12:59:48: INFO: GetInsertions: Detected 51 IS insertions.
+07/03/2024 12:59:48: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_3
+07/03/2024 12:59:48: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.2.syri.out
+07/03/2024 12:59:48: INFO: Calculating depth...
+07/03/2024 12:59:52: INFO: Depth calculation finished
+07/03/2024 12:59:53: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam. Saved to exp/multiple_runs11/export/classify_IS_events/L01-1/L01-1_genome.3.depth_interval.csv
+07/03/2024 13:09:24: INFO: Start analyzing using SyRI_IS output
+07/03/2024 13:09:24: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events_Anc --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 1 --qid 2
+07/03/2024 13:09:24: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.2.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+07/03/2024 13:09:24: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 13:09:24: INFO: 32 out of 32 flanks aligned reference sequence well.
+07/03/2024 13:09:24: INFO: GetInsertions: Detected 27 IS insertions.
+07/03/2024 13:09:25: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_2
+07/03/2024 13:09:25: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+07/03/2024 13:09:25: INFO: Calculating depth...
+07/03/2024 13:09:29: INFO: Depth calculation finished
+07/03/2024 13:09:29: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam. Saved to exp/multiple_runs11/export/classify_IS_events_Anc/L01-1/L01-1_genome.2.depth_interval.csv
+07/03/2024 13:09:32: INFO: Start analyzing using SyRI_IS output
+07/03/2024 13:09:32: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events_Anc --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 1 --qid 3
+07/03/2024 13:09:32: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.3.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+07/03/2024 13:09:33: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 13:09:33: INFO: 60 out of 60 flanks aligned reference sequence well.
+07/03/2024 13:09:33: INFO: GetInsertions: Detected 48 IS insertions.
+07/03/2024 13:09:33: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_3
+07/03/2024 13:09:33: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.1_3.syri.out
+07/03/2024 13:09:34: INFO: Calculating depth...
+07/03/2024 13:09:38: INFO: Depth calculation finished
+07/03/2024 13:09:38: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.1_3.bam. Saved to exp/multiple_runs11/export/classify_IS_events_Anc/L01-1/L01-1_genome.3.depth_interval.csv
+07/03/2024 13:22:20: INFO: Start analyzing using SyRI_IS output
+07/03/2024 13:22:20: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events_MDS --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 0 --qid 1
+07/03/2024 13:22:20: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.1.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+07/03/2024 13:22:20: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 13:22:20: INFO: 20 out of 20 flanks aligned reference sequence well.
+07/03/2024 13:22:20: INFO: GetInsertions: Detected 14 IS insertions.
+07/03/2024 13:22:21: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_1
+07/03/2024 13:22:21: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.0.syri.out
+07/03/2024 13:22:21: INFO: Calculating depth...
+07/03/2024 13:22:25: INFO: Depth calculation finished
+07/03/2024 13:22:25: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam. Saved to exp/multiple_runs11/export/classify_IS_events_MDS/L01-1/L01-1_genome.1.depth_interval.csv
+07/03/2024 13:22:28: INFO: Start analyzing using SyRI_IS output
+07/03/2024 13:22:28: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events_MDS --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 0 --qid 2
+07/03/2024 13:22:28: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.2.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+07/03/2024 13:22:28: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 13:22:28: INFO: 32 out of 32 flanks aligned reference sequence well.
+07/03/2024 13:22:28: INFO: GetInsertions: Detected 22 IS insertions.
+07/03/2024 13:22:28: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_2
+07/03/2024 13:22:28: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.0_2.syri.out
+07/03/2024 13:22:29: INFO: Calculating depth...
+07/03/2024 13:22:33: INFO: Depth calculation finished
+07/03/2024 13:22:33: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.0_2.bam. Saved to exp/multiple_runs11/export/classify_IS_events_MDS/L01-1/L01-1_genome.2.depth_interval.csv
+07/03/2024 13:22:36: INFO: Start analyzing using SyRI_IS output
+07/03/2024 13:22:36: INFO: CMD: ../src/SyRI_IS/classify_IS_events.py --prefix L01-1 --out exp/multiple_runs11/export/classify_IS_events_MDS --log exp/multiple_runs11/log --input exp/multiple_runs11/tmp/L01-1 --calc_depth_interval --rid 0 --qid 3
+07/03/2024 13:22:36: INFO: blastn -task blastn -query exp/multiple_runs11/tmp/L01-1/L01-1_genome.3.ISflank.fasta -evalue 1e-40 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs11/tmp/L01-1/L01-1-FlkinRef-blastn -db exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+07/03/2024 13:22:36: INFO: Ran Blast search to find flanking sequences in references.
+07/03/2024 13:22:36: INFO: 60 out of 60 flanks aligned reference sequence well.
+07/03/2024 13:22:36: INFO: GetInsertions: Detected 44 IS insertions.
+07/03/2024 13:22:37: INFO: IS position conversion vectors saved to exp/multiple_runs11/tmp/L01-1/classify_is_events/L01-1_is_pos_conversion_vecs_3
+07/03/2024 13:22:37: INFO: Found syri file exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.0_3.syri.out
+07/03/2024 13:22:37: INFO: Calculating depth...
+07/03/2024 13:22:41: INFO: Depth calculation finished
+07/03/2024 13:22:41: INFO: Finished calculating depth interval from exp/multiple_runs11/tmp/L01-1/bam/L01-1_genome.deleted_IS.0_3.bam. Saved to exp/multiple_runs11/export/classify_IS_events_MDS/L01-1/L01-1_genome.3.depth_interval.csv

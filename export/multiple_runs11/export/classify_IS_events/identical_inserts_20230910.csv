@@ -1,0 +1,3 @@
+pos_id,IS_strand,flank,pos,genome,cluster_id,insert_id,flankMatchDir,position_status,sv,Line,Gen,pos_cluster,cluster_id_cluster,insert_id_cluster
+1,False,r,1232077,Query,34,2,True,new,unknown,L02-1,2,1232077,0,11
+2,False,f,1232095,Query,24,4,False,new,unknown,L02-3,2,1232095,0,11
