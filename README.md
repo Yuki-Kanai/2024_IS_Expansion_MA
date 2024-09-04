@@ -120,9 +120,9 @@ Example output data is provided in the `export` directory.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
+Kanai, Y., Shibai, A., Yokoi, N., Tsuru, S., & Furusawa, C. (2024). Laboratory evolution of the bacterial genome structure through insertion sequence activation. bioRxiv, 2024-07.
 
-Please cite the following if necessary:
-- TO BE ADDED
+https://www.biorxiv.org/content/10.1101/2024.07.14.599650
 
 ## References
 Some parts of the code are written based on the following codes:
