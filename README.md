@@ -36,9 +36,10 @@ The code was run on Ubuntu 18.04.6 LTS and on Windows Subsystem for Linux (WSL) 
 3. Based on the output, manually edit the fasta files if needed. For example, this includes adding ISs in the ancestor genome if they are found in multiple descendant genomes.
 4. Proceed with the analysis by running the other `.ipynb` files.
 
-## Interdependencies of the files
+## Interdependencies of the run files
 
 ```mermaid
+%%{init: {"theme": "neutral"}}%%
 graph TD;
     ipynb/*_01_multiple_runs.ipynb --> A["runISDetect.py not used"]
     ipynb/*_01_multiple_runs.ipynb --> runSyRI_IS.py
@@ -65,13 +66,14 @@ graph TD;
 
 ```
 
-## Workflow
+## Workflow including the analysis notebooks
 
 ````mermaid
+%%{init: {"theme": "neutral"}}%%
 graph TD;
     C["DNA Extraction: Phenol-Chloroform"]
     C -->|"DNA"| D["Sequencing: MinION/Flongle, ONT Guppy"]
-    D -->|"Fastq Files"| E["Reads Assembly: Filtlong, Flye, Bandage"]
+    D -->|"Fastq Files"| E["Reads Assembly: Filtlong, Flye, Bandage"] 
     E -->|"Assembled Draft Genomes"| F["Draft Genomes Polishing: Medaka, minimap2"]
     F -->|"Polished Sequences"|R
     R --> |"IS Excluded Genome"| G["Analysis of Structural Variation:\n SyRI, minimap2; SyRI_IS.py"]
@@ -80,9 +82,10 @@ graph TD;
     R["IS Detection:\nblastn; classify_IS_events.py, ipynb(01)"]
     R -->|"List of IS loci"| I["IS Variant Visualization: gggenes\nipynb(06)"]
     G -->|"SV Data, Reconstructed Genome"| K["SV Visualization: plotsr; SyRI_IS.py, SyRI_IS.py, ipynb(01)"]
-    K --> |"Figure of Sequence of SVs"| Q{"Final Sequence?"}
-    Q --> |"Yes"| H2["Final Sequence"]
-    Q --> |"No: Manual Fixes"| F
+    K --> |"Visualize the sequence of SVs"| Q1
+    D --> |"Fastq Files"| Q1["Check if reads support the curated genomes\nfastq_analyses"]
+    Q1 --> |"Yes"| H2["Final Sequence"]
+    Q1 --> |"No: Manual Fixes"| F
     H2 --> H
     H2 --> Z["Visualize IS variants \n ipynb(05-07)"]
     H2 -->M["Copy Number Variations:\nminimap2, pysam"]
@@ -100,7 +103,7 @@ graph TD;
 
 ## Modules (in src)
 - `SyRI_IS`: Identification and plotting of ISs and SVs.
-- `IS_detect`: Detection of IS insertion sites based on the coordinates of a reference genome. This can also be used with raw reads or assembled contigs. (Not used)
+- `IS_detect`: Detection of IS insertion sites based on the coordinates of a reference genome. This was previously developed to use with raw reads or assembled contigs. (Not used as such in this project)
 - `is_event_classification_func`: Classification of IS and SV identities.
 
 

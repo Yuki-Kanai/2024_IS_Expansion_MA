@@ -1,32 +1,152 @@
-07/03/2024 12:58:52: INFO: Start running SyRI_IS
-07/03/2024 12:58:52: INFO: CMD: ../src/SyRI_IS/connect_multiple_runs_plotsr.py exp/multiple_runs11/tmp exp/multiple_runs11/export --tmp exp/multiple_runs11/tmp/merged/L01 --out exp/multiple_runs11/export/merged/L01 -p L01-1 -p L01-2 -p L01-3 -p L01-4 -i MDS42_IS1 -i FACS -i MA_G08 -i MA_G20 --log exp/multiple_runs11/log/merged/L01 --plotsr  -W 3 -H 4 -f 10 --cfg ./20231001_plotsr.cfg --xlim 4490000 --noyaxislabel --noxaxislabel
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs11/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out > exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs11/tmp/L01-2/is_deleted/syri/L01-2.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs11/tmp/L01-3/is_deleted/syri/L01-3.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.2.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.0.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out
-07/03/2024 12:58:52: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs11/tmp/L01-4/is_deleted/syri/L01-4.1.rv_coord.syri.out >> exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out
-07/03/2024 12:58:52: INFO: syri output files merged and saved to exp/multiple_runs11/tmp/merged/L01/syri
-07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.local.out
-07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.local.out
-07/03/2024 12:58:52: INFO: local alignment version of syri output saved to exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.local.out
-07/03/2024 12:58:52: INFO: 16 fasta files found
-07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.0.fasta
-07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.1.fasta
-07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.2.fasta
-07/03/2024 12:58:52: INFO: fasta files merged and saved to exp/multiple_runs11/tmp/merged/L01/fasta/merged.3.fasta
-07/03/2024 12:58:52: INFO: Detected 267 ISs. IS positions merged and saved to exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed
-07/03/2024 12:58:52: INFO: IS tags merged and saved to exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed
-07/03/2024 12:58:52: INFO: plotsr --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.0.syri.out --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.1.syri.out --sr exp/multiple_runs11/tmp/merged/L01/syri/merged.2.syri.out --genomes exp/multiple_runs11/tmp/merged/L01/genome_info.txt --markers exp/multiple_runs11/tmp/merged/L01/merged_IS_tag.bed -s 100 -o exp/multiple_runs11/export/merged/L01/merged_plotsr.pdf -W 3 -H 4 -f 10 --cfg ./20231001_plotsr.cfg --xlim 4490000 --noyaxislabel --noxaxislabel
-07/03/2024 12:58:52: DEBUG: matplotlib data path: /home/kanai/miniconda3/envs/syri_env3/lib/python3.9/site-packages/matplotlib/mpl-data
-07/03/2024 12:58:52: DEBUG: CONFIGDIR=/home/kanai/.config/matplotlib
-07/03/2024 12:58:52: DEBUG: interactive is False
-07/03/2024 12:58:52: DEBUG: platform is linux
-07/03/2024 12:58:52: DEBUG: CACHEDIR=/home/kanai/.cache/matplotlib
-07/03/2024 12:58:52: DEBUG: Using fontManager instance from /home/kanai/.cache/matplotlib/fontlist-v330.json
+02/16/2025 18:14:42: INFO: Start running SyRI_IS
+02/16/2025 18:14:42: INFO: CMD: ../src/SyRI_IS/connect_multiple_runs_plotsr.py exp/multiple_runs14/tmp exp/multiple_runs14/export --tmp exp/multiple_runs14/tmp/merged --out exp/multiple_runs14/export/merged -p L01-1 -p L01-2 -p L01-3 -p L01-4 -p L02-1 -p L02-2 -p L02-3 -p L02-4 -p L03-1 -p L03-2 -p L03-3 -p L03-4 -p L04-1 -p L04-2 -p L04-3 -p L04-4 -p L05-1 -p L05-2 -p L05-3 -p L05-4 -p L06-1 -p L06-2 -p L06-3 -p L06-4 -p L07-1 -p L07-2 -p L07-3 -p L07-4 -p L08-1 -p L08-2 -p L08-3 -p L08-4 -p L09-1 -p L09-2 -p L09-3 -p L09-4 -p L10-1 -p L10-2 -p L10-3 -p L10-4 -p L11-1 -p L11-2 -p L11-3 -p L11-4 -i MDS42_IS1 -i FACS -i MA_G08 -i MA_G20 --log exp/multiple_runs14/log/merged
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out > exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out > exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-1/g' exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out > exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs14/tmp/L01-2/is_deleted/syri/L01-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs14/tmp/L01-2/is_deleted/syri/L01-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-2/g' exp/multiple_runs14/tmp/L01-2/is_deleted/syri/L01-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs14/tmp/L01-3/is_deleted/syri/L01-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs14/tmp/L01-3/is_deleted/syri/L01-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-3/g' exp/multiple_runs14/tmp/L01-3/is_deleted/syri/L01-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs14/tmp/L01-4/is_deleted/syri/L01-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs14/tmp/L01-4/is_deleted/syri/L01-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L01-4/g' exp/multiple_runs14/tmp/L01-4/is_deleted/syri/L01-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-1/g' exp/multiple_runs14/tmp/L02-1/is_deleted/syri/L02-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-1/g' exp/multiple_runs14/tmp/L02-1/is_deleted/syri/L02-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-1/g' exp/multiple_runs14/tmp/L02-1/is_deleted/syri/L02-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-2/g' exp/multiple_runs14/tmp/L02-2/is_deleted/syri/L02-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-2/g' exp/multiple_runs14/tmp/L02-2/is_deleted/syri/L02-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-2/g' exp/multiple_runs14/tmp/L02-2/is_deleted/syri/L02-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-3/g' exp/multiple_runs14/tmp/L02-3/is_deleted/syri/L02-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-3/g' exp/multiple_runs14/tmp/L02-3/is_deleted/syri/L02-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-3/g' exp/multiple_runs14/tmp/L02-3/is_deleted/syri/L02-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-4/g' exp/multiple_runs14/tmp/L02-4/is_deleted/syri/L02-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-4/g' exp/multiple_runs14/tmp/L02-4/is_deleted/syri/L02-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L02-4/g' exp/multiple_runs14/tmp/L02-4/is_deleted/syri/L02-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-1/g' exp/multiple_runs14/tmp/L03-1/is_deleted/syri/L03-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-1/g' exp/multiple_runs14/tmp/L03-1/is_deleted/syri/L03-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-1/g' exp/multiple_runs14/tmp/L03-1/is_deleted/syri/L03-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-2/g' exp/multiple_runs14/tmp/L03-2/is_deleted/syri/L03-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-2/g' exp/multiple_runs14/tmp/L03-2/is_deleted/syri/L03-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-2/g' exp/multiple_runs14/tmp/L03-2/is_deleted/syri/L03-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-3/g' exp/multiple_runs14/tmp/L03-3/is_deleted/syri/L03-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-3/g' exp/multiple_runs14/tmp/L03-3/is_deleted/syri/L03-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-3/g' exp/multiple_runs14/tmp/L03-3/is_deleted/syri/L03-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-4/g' exp/multiple_runs14/tmp/L03-4/is_deleted/syri/L03-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-4/g' exp/multiple_runs14/tmp/L03-4/is_deleted/syri/L03-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L03-4/g' exp/multiple_runs14/tmp/L03-4/is_deleted/syri/L03-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-1/g' exp/multiple_runs14/tmp/L04-1/is_deleted/syri/L04-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-1/g' exp/multiple_runs14/tmp/L04-1/is_deleted/syri/L04-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-1/g' exp/multiple_runs14/tmp/L04-1/is_deleted/syri/L04-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-2/g' exp/multiple_runs14/tmp/L04-2/is_deleted/syri/L04-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-2/g' exp/multiple_runs14/tmp/L04-2/is_deleted/syri/L04-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-2/g' exp/multiple_runs14/tmp/L04-2/is_deleted/syri/L04-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-3/g' exp/multiple_runs14/tmp/L04-3/is_deleted/syri/L04-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-3/g' exp/multiple_runs14/tmp/L04-3/is_deleted/syri/L04-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-3/g' exp/multiple_runs14/tmp/L04-3/is_deleted/syri/L04-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-4/g' exp/multiple_runs14/tmp/L04-4/is_deleted/syri/L04-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-4/g' exp/multiple_runs14/tmp/L04-4/is_deleted/syri/L04-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L04-4/g' exp/multiple_runs14/tmp/L04-4/is_deleted/syri/L04-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-1/g' exp/multiple_runs14/tmp/L05-1/is_deleted/syri/L05-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-1/g' exp/multiple_runs14/tmp/L05-1/is_deleted/syri/L05-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-1/g' exp/multiple_runs14/tmp/L05-1/is_deleted/syri/L05-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-2/g' exp/multiple_runs14/tmp/L05-2/is_deleted/syri/L05-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-2/g' exp/multiple_runs14/tmp/L05-2/is_deleted/syri/L05-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-2/g' exp/multiple_runs14/tmp/L05-2/is_deleted/syri/L05-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-3/g' exp/multiple_runs14/tmp/L05-3/is_deleted/syri/L05-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-3/g' exp/multiple_runs14/tmp/L05-3/is_deleted/syri/L05-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-3/g' exp/multiple_runs14/tmp/L05-3/is_deleted/syri/L05-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-4/g' exp/multiple_runs14/tmp/L05-4/is_deleted/syri/L05-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-4/g' exp/multiple_runs14/tmp/L05-4/is_deleted/syri/L05-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L05-4/g' exp/multiple_runs14/tmp/L05-4/is_deleted/syri/L05-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-1/g' exp/multiple_runs14/tmp/L06-1/is_deleted/syri/L06-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-1/g' exp/multiple_runs14/tmp/L06-1/is_deleted/syri/L06-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-1/g' exp/multiple_runs14/tmp/L06-1/is_deleted/syri/L06-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-2/g' exp/multiple_runs14/tmp/L06-2/is_deleted/syri/L06-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-2/g' exp/multiple_runs14/tmp/L06-2/is_deleted/syri/L06-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-2/g' exp/multiple_runs14/tmp/L06-2/is_deleted/syri/L06-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-3/g' exp/multiple_runs14/tmp/L06-3/is_deleted/syri/L06-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-3/g' exp/multiple_runs14/tmp/L06-3/is_deleted/syri/L06-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-3/g' exp/multiple_runs14/tmp/L06-3/is_deleted/syri/L06-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-4/g' exp/multiple_runs14/tmp/L06-4/is_deleted/syri/L06-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-4/g' exp/multiple_runs14/tmp/L06-4/is_deleted/syri/L06-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L06-4/g' exp/multiple_runs14/tmp/L06-4/is_deleted/syri/L06-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-1/g' exp/multiple_runs14/tmp/L07-1/is_deleted/syri/L07-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-1/g' exp/multiple_runs14/tmp/L07-1/is_deleted/syri/L07-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-1/g' exp/multiple_runs14/tmp/L07-1/is_deleted/syri/L07-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-2/g' exp/multiple_runs14/tmp/L07-2/is_deleted/syri/L07-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-2/g' exp/multiple_runs14/tmp/L07-2/is_deleted/syri/L07-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-2/g' exp/multiple_runs14/tmp/L07-2/is_deleted/syri/L07-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-3/g' exp/multiple_runs14/tmp/L07-3/is_deleted/syri/L07-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-3/g' exp/multiple_runs14/tmp/L07-3/is_deleted/syri/L07-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-3/g' exp/multiple_runs14/tmp/L07-3/is_deleted/syri/L07-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-4/g' exp/multiple_runs14/tmp/L07-4/is_deleted/syri/L07-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-4/g' exp/multiple_runs14/tmp/L07-4/is_deleted/syri/L07-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L07-4/g' exp/multiple_runs14/tmp/L07-4/is_deleted/syri/L07-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-1/g' exp/multiple_runs14/tmp/L08-1/is_deleted/syri/L08-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-1/g' exp/multiple_runs14/tmp/L08-1/is_deleted/syri/L08-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-1/g' exp/multiple_runs14/tmp/L08-1/is_deleted/syri/L08-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-2/g' exp/multiple_runs14/tmp/L08-2/is_deleted/syri/L08-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-2/g' exp/multiple_runs14/tmp/L08-2/is_deleted/syri/L08-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-2/g' exp/multiple_runs14/tmp/L08-2/is_deleted/syri/L08-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-3/g' exp/multiple_runs14/tmp/L08-3/is_deleted/syri/L08-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-3/g' exp/multiple_runs14/tmp/L08-3/is_deleted/syri/L08-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-3/g' exp/multiple_runs14/tmp/L08-3/is_deleted/syri/L08-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-4/g' exp/multiple_runs14/tmp/L08-4/is_deleted/syri/L08-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-4/g' exp/multiple_runs14/tmp/L08-4/is_deleted/syri/L08-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L08-4/g' exp/multiple_runs14/tmp/L08-4/is_deleted/syri/L08-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-1/g' exp/multiple_runs14/tmp/L09-1/is_deleted/syri/L09-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-1/g' exp/multiple_runs14/tmp/L09-1/is_deleted/syri/L09-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-1/g' exp/multiple_runs14/tmp/L09-1/is_deleted/syri/L09-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-2/g' exp/multiple_runs14/tmp/L09-2/is_deleted/syri/L09-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-2/g' exp/multiple_runs14/tmp/L09-2/is_deleted/syri/L09-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-2/g' exp/multiple_runs14/tmp/L09-2/is_deleted/syri/L09-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-3/g' exp/multiple_runs14/tmp/L09-3/is_deleted/syri/L09-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-3/g' exp/multiple_runs14/tmp/L09-3/is_deleted/syri/L09-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-3/g' exp/multiple_runs14/tmp/L09-3/is_deleted/syri/L09-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-4/g' exp/multiple_runs14/tmp/L09-4/is_deleted/syri/L09-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-4/g' exp/multiple_runs14/tmp/L09-4/is_deleted/syri/L09-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L09-4/g' exp/multiple_runs14/tmp/L09-4/is_deleted/syri/L09-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-1/g' exp/multiple_runs14/tmp/L10-1/is_deleted/syri/L10-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-1/g' exp/multiple_runs14/tmp/L10-1/is_deleted/syri/L10-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-1/g' exp/multiple_runs14/tmp/L10-1/is_deleted/syri/L10-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-2/g' exp/multiple_runs14/tmp/L10-2/is_deleted/syri/L10-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-2/g' exp/multiple_runs14/tmp/L10-2/is_deleted/syri/L10-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-2/g' exp/multiple_runs14/tmp/L10-2/is_deleted/syri/L10-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-3/g' exp/multiple_runs14/tmp/L10-3/is_deleted/syri/L10-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-3/g' exp/multiple_runs14/tmp/L10-3/is_deleted/syri/L10-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-3/g' exp/multiple_runs14/tmp/L10-3/is_deleted/syri/L10-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-4/g' exp/multiple_runs14/tmp/L10-4/is_deleted/syri/L10-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-4/g' exp/multiple_runs14/tmp/L10-4/is_deleted/syri/L10-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L10-4/g' exp/multiple_runs14/tmp/L10-4/is_deleted/syri/L10-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-1/g' exp/multiple_runs14/tmp/L11-1/is_deleted/syri/L11-1.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-1/g' exp/multiple_runs14/tmp/L11-1/is_deleted/syri/L11-1.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-1/g' exp/multiple_runs14/tmp/L11-1/is_deleted/syri/L11-1.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-2/g' exp/multiple_runs14/tmp/L11-2/is_deleted/syri/L11-2.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-2/g' exp/multiple_runs14/tmp/L11-2/is_deleted/syri/L11-2.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-2/g' exp/multiple_runs14/tmp/L11-2/is_deleted/syri/L11-2.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-3/g' exp/multiple_runs14/tmp/L11-3/is_deleted/syri/L11-3.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-3/g' exp/multiple_runs14/tmp/L11-3/is_deleted/syri/L11-3.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-3/g' exp/multiple_runs14/tmp/L11-3/is_deleted/syri/L11-3.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-4/g' exp/multiple_runs14/tmp/L11-4/is_deleted/syri/L11-4.0.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-4/g' exp/multiple_runs14/tmp/L11-4/is_deleted/syri/L11-4.1.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out
+02/16/2025 18:14:42: INFO: sed 's/contig_1/L11-4/g' exp/multiple_runs14/tmp/L11-4/is_deleted/syri/L11-4.2.rv_coord.syri.out >> exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out
+02/16/2025 18:14:42: INFO: syri output files merged and saved to exp/multiple_runs14/tmp/merged/syri
+02/16/2025 18:14:42: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/merged/syri/merged.0.syri.local.out
+02/16/2025 18:14:42: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/merged/syri/merged.1.syri.local.out
+02/16/2025 18:14:42: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/merged/syri/merged.2.syri.local.out
+02/16/2025 18:14:42: INFO: 176 fasta files found
+02/16/2025 18:14:44: INFO: fasta files merged and saved to exp/multiple_runs14/tmp/merged/fasta/merged.0.fasta
+02/16/2025 18:14:45: INFO: fasta files merged and saved to exp/multiple_runs14/tmp/merged/fasta/merged.1.fasta
+02/16/2025 18:14:46: INFO: fasta files merged and saved to exp/multiple_runs14/tmp/merged/fasta/merged.2.fasta
+02/16/2025 18:14:47: INFO: fasta files merged and saved to exp/multiple_runs14/tmp/merged/fasta/merged.3.fasta
+02/16/2025 18:14:47: INFO: Detected 2717 ISs. IS positions merged and saved to exp/multiple_runs14/tmp/merged/merged_IS_tag.bed
+02/16/2025 18:14:52: INFO: IS tags merged and saved to exp/multiple_runs14/tmp/merged/merged_IS_tag.bed
+02/16/2025 18:14:52: INFO: plotsr --sr exp/multiple_runs14/tmp/merged/syri/merged.0.syri.out --sr exp/multiple_runs14/tmp/merged/syri/merged.1.syri.out --sr exp/multiple_runs14/tmp/merged/syri/merged.2.syri.out --genomes exp/multiple_runs14/tmp/merged/genome_info.txt --markers exp/multiple_runs14/tmp/merged/merged_IS_tag.bed -s 100 -o exp/multiple_runs14/export/merged/merged_plotsr.pdf
+02/16/2025 18:14:52: DEBUG: matplotlib data path: /home/kanai/miniconda3/envs/syri_env3/lib/python3.9/site-packages/matplotlib/mpl-data
+02/16/2025 18:14:52: DEBUG: CONFIGDIR=/home/kanai/.config/matplotlib
+02/16/2025 18:14:52: DEBUG: interactive is False
+02/16/2025 18:14:52: DEBUG: platform is linux
+02/16/2025 18:14:52: DEBUG: CACHEDIR=/home/kanai/.cache/matplotlib
+02/16/2025 18:14:52: DEBUG: Using fontManager instance from /home/kanai/.cache/matplotlib/fontlist-v330.json

@@ -11,7 +11,6 @@ def get_full_contig(filename, tmpdir='tmpdir', basefasta = '', skip_if_exists = 
 	base_name = os.path.basename(filename)
 	# count contig number of filename fasta
 	contig_cnt = len([record for record in SeqIO.parse(filename, 'fasta')])
-	print('contig_cnt', contig_cnt)
 	if contig_cnt > 1: # if more than one contig, run ragtag
 		base_name = os.path.splitext(base_name)[0]
 		full_contig_folder = os.path.join(tmpdir, 'ragtag', base_name)

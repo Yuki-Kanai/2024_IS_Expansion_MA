@@ -46,6 +46,9 @@ def main():
 	q_fasta = os.path.join(args.input, args.prefix + '_genome.'+qid+'.fasta')
 	r_is_cluster = pd.read_csv(os.path.join(args.input, args.prefix +'_clustered_IS_positions_in_subjectgenome.'+ rid + '.csv'))
 	q_is_cluster = pd.read_csv(os.path.join(args.input, args.prefix +'_clustered_IS_positions_in_subjectgenome.'+ qid + '.csv'))
+	# is_flank_seq_pos_in_ref_genome_df: information about the position and clustered IS insertion sites
+	# is_classified_df: basically the blast results of flanks of each IS in descendant
+	# ref_genome_is_pos_status: whether each insertion site is new/ original/ simpleinsertion 
 	is_flank_seq_pos_in_ref_genome_df, is_classified_df, ref_genome_is_pos_status = iecf.get_is_flank_seq_pos_in_ref_genome(r_fasta, q_fasta, r_is_cluster, q_is_cluster, args.input, args.prefix, args.qid)
 
 	#debug

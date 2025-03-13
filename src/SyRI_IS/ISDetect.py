@@ -10,7 +10,7 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from sklearn.cluster import AgglomerativeClustering
 from utility import format_time
-from alignment import alignment
+#from alignment import alignment
 import pysam
 import matplotlib.pyplot as plt
 from collections import Counter
@@ -19,9 +19,6 @@ import pyarrow.parquet as pq
 
 from pathlib import Path
 
-###############################
-# Based on LoRTEv1.2
-##############################
 
 
 def Fastq2Fasta(fasta, fastq):

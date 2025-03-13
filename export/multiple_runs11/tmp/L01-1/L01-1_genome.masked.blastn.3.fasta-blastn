@@ -1,6 +1,6 @@
 # BLASTN 2.14.0+
 # Query: IS1
-# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.3.fasta
+# Database: exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.3.fasta
 # Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
 # 101 hits found
 contig_1	IS1	1	3092	1395976	1392885	3092	0.0

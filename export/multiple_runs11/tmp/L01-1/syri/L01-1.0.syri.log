@@ -1,16 +1,64 @@
-2024-07-03 12:43:22,920 - numexpr.utils - INFO - _init_num_threads:148 - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-2024-07-03 12:43:22,920 - numexpr.utils - INFO - _init_num_threads:160 - NumExpr defaulting to 8 threads.
-2024-07-03 12:43:23,002 - Reading Coords - INFO - syri:135 - Reading input from BAM file
-2024-07-03 12:43:23,051 - syri - INFO - syri:214 - starting
-2024-07-03 12:43:23,051 - syri - INFO - syri:214 - Analysing chromosomes: ['contig_1']
-2024-07-03 12:43:23,057 - syri.contig_1 - INFO - mapstar:48 - contig_1 (9, 11)
-2024-07-03 12:43:23,057 - syri.contig_1 - INFO - mapstar:48 - Identifying Synteny for chromosome contig_1
-2024-07-03 12:43:23,075 - syri.contig_1 - INFO - mapstar:48 - Identifying Inversions for chromosome contig_1
-2024-07-03 12:43:23,267 - syri.contig_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome contig_1
-2024-07-03 12:43:23,289 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2024-07-03 12:43:23.289579
-2024-07-03 12:43:23,335 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
-2024-07-03 12:43:23,549 - local_variation - INFO - syri:245 - Finding SNPs and small indels
-2024-07-03 12:43:23,588 - local_variation - INFO - syri:257 - Combining outputs
-2024-07-03 12:43:23,590 - local_variation - INFO - syri:262 - Generating table output
-2024-07-03 12:43:23,661 - local_variation - INFO - syri:267 - Generating VCF
-2024-07-03 12:43:23,667 - local_variation - WARNING - syri:275 - Finished syri
+2025-02-06 09:10:06,076 - numexpr.utils - INFO - _init_num_threads:148 - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-02-06 09:10:06,076 - numexpr.utils - INFO - _init_num_threads:160 - NumExpr defaulting to 8 threads.
+2025-02-06 09:10:06,179 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2025-02-06 09:10:06,238 - syri - INFO - syri:214 - starting
+2025-02-06 09:10:06,238 - syri - INFO - syri:214 - Analysing chromosomes: ['contig_1']
+2025-02-06 09:10:06,245 - syri.contig_1 - INFO - mapstar:48 - contig_1 (9, 11)
+2025-02-06 09:10:06,246 - syri.contig_1 - INFO - mapstar:48 - Identifying Synteny for chromosome contig_1
+2025-02-06 09:10:06,266 - syri.contig_1 - INFO - mapstar:48 - Identifying Inversions for chromosome contig_1
+2025-02-06 09:10:06,509 - syri.contig_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome contig_1
+2025-02-06 09:10:06,536 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2025-02-06 09:10:06.536134
+2025-02-06 09:10:06,594 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2025-02-06 09:10:06,865 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2025-02-06 09:10:06,913 - local_variation - INFO - syri:257 - Combining outputs
+2025-02-06 09:10:06,915 - local_variation - INFO - syri:262 - Generating table output
+2025-02-06 09:10:07,002 - local_variation - INFO - syri:267 - Generating VCF
+2025-02-06 09:10:07,010 - local_variation - WARNING - syri:275 - Finished syri
+2025-02-07 14:53:11,260 - numexpr.utils - INFO - _init_num_threads:148 - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-02-07 14:53:11,260 - numexpr.utils - INFO - _init_num_threads:160 - NumExpr defaulting to 8 threads.
+2025-02-07 14:53:11,358 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2025-02-07 14:53:11,414 - syri - INFO - syri:214 - starting
+2025-02-07 14:53:11,415 - syri - INFO - syri:214 - Analysing chromosomes: ['contig_1']
+2025-02-07 14:53:11,422 - syri.contig_1 - INFO - mapstar:48 - contig_1 (9, 11)
+2025-02-07 14:53:11,422 - syri.contig_1 - INFO - mapstar:48 - Identifying Synteny for chromosome contig_1
+2025-02-07 14:53:11,442 - syri.contig_1 - INFO - mapstar:48 - Identifying Inversions for chromosome contig_1
+2025-02-07 14:53:11,663 - syri.contig_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome contig_1
+2025-02-07 14:53:11,688 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2025-02-07 14:53:11.688662
+2025-02-07 14:53:11,738 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2025-02-07 14:53:11,985 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2025-02-07 14:53:12,029 - local_variation - INFO - syri:257 - Combining outputs
+2025-02-07 14:53:12,031 - local_variation - INFO - syri:262 - Generating table output
+2025-02-07 14:53:12,112 - local_variation - INFO - syri:267 - Generating VCF
+2025-02-07 14:53:12,119 - local_variation - WARNING - syri:275 - Finished syri
+2025-02-07 14:54:10,152 - numexpr.utils - INFO - _init_num_threads:148 - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-02-07 14:54:10,152 - numexpr.utils - INFO - _init_num_threads:160 - NumExpr defaulting to 8 threads.
+2025-02-07 14:54:10,269 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2025-02-07 14:54:10,325 - syri - INFO - syri:214 - starting
+2025-02-07 14:54:10,325 - syri - INFO - syri:214 - Analysing chromosomes: ['contig_1']
+2025-02-07 14:54:10,333 - syri.contig_1 - INFO - mapstar:48 - contig_1 (9, 11)
+2025-02-07 14:54:10,333 - syri.contig_1 - INFO - mapstar:48 - Identifying Synteny for chromosome contig_1
+2025-02-07 14:54:10,355 - syri.contig_1 - INFO - mapstar:48 - Identifying Inversions for chromosome contig_1
+2025-02-07 14:54:10,661 - syri.contig_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome contig_1
+2025-02-07 14:54:10,690 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2025-02-07 14:54:10.690064
+2025-02-07 14:54:10,763 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2025-02-07 14:54:11,037 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2025-02-07 14:54:11,081 - local_variation - INFO - syri:257 - Combining outputs
+2025-02-07 14:54:11,082 - local_variation - INFO - syri:262 - Generating table output
+2025-02-07 14:54:11,164 - local_variation - INFO - syri:267 - Generating VCF
+2025-02-07 14:54:11,171 - local_variation - WARNING - syri:275 - Finished syri
+2025-02-15 20:46:54,639 - numexpr.utils - INFO - _init_num_threads:148 - Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2025-02-15 20:46:54,639 - numexpr.utils - INFO - _init_num_threads:160 - NumExpr defaulting to 8 threads.
+2025-02-15 20:46:54,729 - Reading Coords - INFO - syri:135 - Reading input from BAM file
+2025-02-15 20:46:54,781 - syri - INFO - syri:214 - starting
+2025-02-15 20:46:54,781 - syri - INFO - syri:214 - Analysing chromosomes: ['contig_1']
+2025-02-15 20:46:54,787 - syri.contig_1 - INFO - mapstar:48 - contig_1 (9, 11)
+2025-02-15 20:46:54,788 - syri.contig_1 - INFO - mapstar:48 - Identifying Synteny for chromosome contig_1
+2025-02-15 20:46:54,807 - syri.contig_1 - INFO - mapstar:48 - Identifying Inversions for chromosome contig_1
+2025-02-15 20:46:55,000 - syri.contig_1 - INFO - mapstar:48 - Identifying translocation and duplication for chromosome contig_1
+2025-02-15 20:46:55,021 - getCTX - INFO - syri:214 - Identifying cross-chromosomal translocation and duplication for chromosome2025-02-15 20:46:55.021491
+2025-02-15 20:46:55,069 - local_variation - INFO - syri:225 - Finding SVs in synOut.txt, invOut.txt, TLOut.txt, invTLOut.txt, ctxOut.txt
+2025-02-15 20:46:55,306 - local_variation - INFO - syri:245 - Finding SNPs and small indels
+2025-02-15 20:46:55,348 - local_variation - INFO - syri:257 - Combining outputs
+2025-02-15 20:46:55,348 - local_variation - INFO - syri:262 - Generating table output
+2025-02-15 20:46:55,426 - local_variation - INFO - syri:267 - Generating VCF
+2025-02-15 20:46:55,433 - local_variation - WARNING - syri:275 - Finished syri

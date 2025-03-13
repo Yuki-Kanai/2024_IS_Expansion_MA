@@ -1,6 +1,6 @@
 # BLASTN 2.14.0+
 # Query: IS1
-# Database: exp/multiple_runs11/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+# Database: exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.1.fasta
 # Fields: subject id, query id, q. start, q. end, s. start, s. end, alignment length, evalue
 # 39 hits found
 L01_Anc_m1	IS1	1	3092	560259	557167	3093	0.0
