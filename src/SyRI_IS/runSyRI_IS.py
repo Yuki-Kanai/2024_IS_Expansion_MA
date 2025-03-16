@@ -18,6 +18,7 @@ def get_args():
     parser.add_argument('--log', type=str, default='log', help='log directory')
     parser.add_argument('--tmp', type=str, default='tmp')
     parser.add_argument('--replicationOrigin', type=int, default=0, help='replication origin position in the reference genome. If not given, 0 is used.')
+    parser.add_argument('--noAutoSetOrigin', action='store_true', help='automatically set the origin of the reference genome')
 
     # force rerun flags
     # By default, the program will skip the steps that have been done. If you want to rerun the steps, use these flags.
@@ -179,7 +180,9 @@ def main():
     bamdir = os.path.join(tmpdir, 'bam')
     os.makedirs(bamdir, exist_ok=True)
 
-    origin_resetted_genomes = reset_origin_of_input_genomes(args.genome, args.replicationOrigin, tmpdir = tmpdir, prefix=args.prefix, rerun = args.rerun_reset_origin)
+    origin_resetted_genomes = args.genome
+    if not args.noAutoSetOrigin:
+        origin_resetted_genomes = reset_origin_of_input_genomes(args.genome, args.replicationOrigin, tmpdir = tmpdir, prefix=args.prefix, rerun = args.rerun_reset_origin)
     is_dfs, masked_genomes, clustered_df = get_is_pos_and_masked_genomes(origin_resetted_genomes, args.ISseq, tmpdir = tmpdir, prefix = args.prefix, alginment_length_cutoff = 300, rerun = args.rerun_mask_TE_sequences)
 
     # output IS positions

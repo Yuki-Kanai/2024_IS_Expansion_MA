@@ -24,6 +24,7 @@ def detect_overlap(s1, e1, s2, e2):
 	e2_ = max(s2, e2)
 	return min(e1_, e2_) - max(s1_, s2_) if (s1_ <= e2_ and s2_ <= e1_) else 0
 
+# min distance of two ranges
 def range_distance(s1, e1, s2, e2):
 	s1_ = min(s1, e1)
 	e1_ = max(s1, e1)
@@ -33,10 +34,11 @@ def range_distance(s1, e1, s2, e2):
 
 # df input is the merged flank df
 def annotate_simple_insertions_of_q_is(df, flank_length=100):
-	# Split dataframes based on flank
 	new_is_lengths = df.apply(lambda x: abs(x['s_start_x'] - x['s_end_x'])+1, axis=1)
 	df['new_is_length'] = new_is_lengths
+	# whether the IS in the query genome is matched to the IS in the reference genome
 	df['is_matched'] =  df.apply(lambda x: x['new_is_length']*0.9 <= x['is_match_length'], axis=1)
+	# Split dataframes based on flank
 	df_f = df[df['flank'] == 'f'].copy()
 	df_r = df[df['flank'] == 'r'].copy()
 
@@ -57,6 +59,7 @@ def annotate_simple_insertions_of_q_is(df, flank_length=100):
 	merged_df['_range_overlap'] = merged_df.apply(lambda x: detect_overlap(x['s_start_y_f'], x['s_end_y_f'], x['s_start_y_r'], x['s_end_y_r']), axis=1)
 	merged_df['_range_distance'] = merged_df.apply(lambda x: range_distance(x['s_start_y_f'], x['s_end_y_f'], x['s_start_y_r'], x['s_end_y_r']), axis=1)
 	merged_df['_same_ins_pos'] = merged_df.apply(lambda x: abs(x['is_ins_pos_f'] - x['is_ins_pos_r']) <= 20, axis=1)
+	# positions of where the ends of the IS flanks are detected
 	merged_df['_detected_is_start'] = merged_df.apply(lambda x: min(x['is_ins_pos_f'], x['is_ins_pos_r']), axis=1)
 	merged_df['_detected_is_end'] = merged_df.apply(lambda x: max(x['is_ins_pos_f'], x['is_ins_pos_r']), axis=1)
 
@@ -83,7 +86,8 @@ def annotate_simple_insertions_of_q_is(df, flank_length=100):
 
 	# those insertions with the flanking pairs matched to adjacent sequence in the right direction is considered as a simple insertion
 	simple_ins_mask = (merged_df_wo_nan['_same_strand'] & 
-					(merged_df_wo_nan['_range_distance'] < 20) & 
+					#(merged_df_wo_nan['_range_distance'] < 20) & 
+				 	(abs(merged_df_wo_nan['is_ins_pos_f'] - merged_df_wo_nan['is_ins_pos_r']) < 20) &
 					(~merged_df_wo_nan['is_matched_f']) & # sequence similar to IS not found in the inserted position
 					(~merged_df_wo_nan['is_matched_r']))
 	merged_df_wo_nan.loc[simple_ins_mask, 'status'] = 'simple_insertion'
@@ -125,6 +129,8 @@ def analyze_whether_is_flank_seq_match_pos_is_new(merged_cluster_df):
 	ref_genome_is_pos_status['pos'] = ref_genome_is_pos_status['pos'].astype(int)
 	return merged_cluster_df, ref_genome_is_pos_status
 
+# Aggregate information based on mapping of IS flanks of query genomes
+# for each insert_id (IS insertion site)
 def merge_ins_id_info_to_ref_genome_is_pos_status(is_flank_seq_pos_in_ref_genome_df, is_classified_df, ref_genome_is_pos_status):
 	f_strand_info = is_flank_seq_pos_in_ref_genome_df.query('genome == "Query" and flank =="f"')[['pos_id', 'insert_id', 'position_status']]
 	f_strand_info.columns = ['is_id_desc', 'insert_id_f', 'target_locus_status_f']
@@ -137,6 +143,8 @@ def merge_ins_id_info_to_ref_genome_is_pos_status(is_flank_seq_pos_in_ref_genome
 	pristine_iss = is_classified_df.query('status in ["pristine", "mutation_in_is"]')
 	pristine_iss = set(pristine_iss.insert_id_f.tolist() + pristine_iss.insert_id_r.tolist())
 	ref_genome_is_pos_status['sv'] = ref_genome_is_pos_status.apply(lambda x: 'pristine' if x['insert_id'] in pristine_iss else x['sv'], axis=1)
+	# If any of descendant ISs are "simply inserted" in the IS insertion site,
+	# the site is considered as a simple insertion
 	insertion_iss = is_classified_df.query('status == "simple_insertion"')
 	insertion_iss = set(insertion_iss.insert_id_f.tolist() + insertion_iss.insert_id_r.tolist())
 	ref_genome_is_pos_status['sv'] = ref_genome_is_pos_status.apply(lambda x: 'simple_insertion' if x['insert_id'] in insertion_iss else x['sv'], axis=1)
@@ -635,18 +643,13 @@ def get_depth_intervals_from_bam(bam_dir, max_gap = 20):
 	depthDF = pd.DataFrame([x.split('\t') for x in pysamOut])
 	depthDF = depthDF.drop(depthDF.columns[[0]], axis=1).set_axis(['locus', 'depth'], axis =1)
 	depthDF = depthDF.astype(int)
+	#depthDF_old = depthDF.copy()
 
 	# get intervals with same depth
 	ser = depthDF.depth
 	grp_ser = ser.groupby((ser.diff() !=0).cumsum()).transform('size') # each component of the group has value size of the interval
 
-	# Identify small groups and try setting it to '1'
-	mask_small_groups = grp_ser < max_gap 
-	depthDF.loc[mask_small_groups, 'depth'] = 1
-
-	# if filling gaps with 1 still leaves a small group as a gap, then set it to nan to gap fill with close values
-	ser = depthDF.depth
-	grp_ser = ser.groupby((ser.diff() !=0).cumsum()).transform('size')
+	# set small groups to nan to gap fill with close values
 	mask_small_groups = grp_ser < max_gap 
 	depthDF.loc[mask_small_groups, 'depth'] = np.nan
 	depthDF['depth'] = depthDF.depth.ffill().bfill()
@@ -655,12 +658,13 @@ def get_depth_intervals_from_bam(bam_dir, max_gap = 20):
 	ser = depthDF.depth
 	depthDF['group'] = (ser.diff() !=0).cumsum()
 
-	logging.info('Depth calculation finished')
+	logging.info('Depth calculation finished: ' + bam_dir)
 
 	return depthDF.groupby('group').\
 	 agg(start=('locus', 'min'), end=('locus', 'max'), depth=('depth', 'mean')).\
 		reset_index().\
 		assign(length = lambda x: x.end - x.start + 1)
+		#assign(length = lambda x: x.end - x.start + 1), depthDF, mask_small_groups, depthDF_old
 
 def assign_is_id_to_interval_bound(depthDF,  r_coor_trans_rv, is_pos_conv_vec_ref):
 	depthDF['start_fix'] = depthDF.start.apply(lambda x: r_coor_trans_rv.coord_in_original_genome[x])

@@ -5,8 +5,6 @@ import sys
 import ISDetect
 import argparse
 
-#### Rewrote based on TELR
-
 def get_args():
     parser = argparse.ArgumentParser(description='Transposon insertion locus detector for a single IS.')
     parser.add_argument('fastqDir', help = 'directory of fastq file. If a fasta file is given, use it as fastaFile')

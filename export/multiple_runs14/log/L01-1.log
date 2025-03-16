@@ -1,0 +1,452 @@
+02/06/2025 09:09:57: INFO: Start running SyRI_IS
+02/06/2025 09:09:57: INFO: CMD: ../src/SyRI_IS/runSyRI_IS.py -i ../fasta/IS1.fasta -p L01-1 --replicationOrigin 3359187 --tmp exp/multiple_runs14/tmp --out exp/multiple_runs14/export --log exp/multiple_runs14/log --rerun -g ../fasta/20230904/MDS42_IS1.fa -g ../fasta/20231004/L01_Anc_m1.fasta -g ../fasta/20250122/L01-1_G08_polish_fix.fasta -g ../fasta/20231003/L01-1_G20.fasta
+02/06/2025 09:09:57: INFO: seqkit restart -i 3359187 ../fasta/20230904/MDS42_IS1.fa > exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/06/2025 09:09:57: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/06/2025 09:09:57: INFO: Making database (subjectgenome)
+02/06/2025 09:09:57: INFO: Constructed database (subjectgenome) 0 seconds
+02/06/2025 09:09:57: INFO: searching for origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/06/2025 09:09:57: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01_Anc_m1.fasta
+02/06/2025 09:09:57: INFO: found origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta at 1
+02/06/2025 09:09:57: INFO: seqkit restart -i 1 ../fasta/20231004/L01_Anc_m1.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/06/2025 09:09:57: INFO: new genome file with reset origin of ../fasta/20231004/L01_Anc_m1.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/06/2025 09:09:57: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/06/2025 09:09:57: INFO: Making database (subjectgenome)
+02/06/2025 09:09:57: INFO: Constructed database (subjectgenome) 0 seconds
+02/06/2025 09:09:57: INFO: searching for origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/06/2025 09:09:57: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G08_polish_fix.fasta
+02/06/2025 09:09:57: INFO: found origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta at 1
+02/06/2025 09:09:57: INFO: seqkit restart -i 1 ../fasta/20250122/L01-1_G08_polish_fix.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/06/2025 09:09:57: INFO: new genome file with reset origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/06/2025 09:09:57: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/06/2025 09:09:57: INFO: Making database (subjectgenome)
+02/06/2025 09:09:57: INFO: Constructed database (subjectgenome) 0 seconds
+02/06/2025 09:09:57: INFO: searching for origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/06/2025 09:09:57: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G20.fasta
+02/06/2025 09:09:57: INFO: found origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta at 2038698
+02/06/2025 09:09:57: INFO: seqkit restart -i 2038698 ../fasta/20231003/L01-1_G20.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/06/2025 09:09:57: INFO: new genome file with reset origin of ../fasta/20231003/L01-1_G20.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/06/2025 09:09:57: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/06/2025 09:09:57: WARNING: genome_sizes: [3980425, 4003851, 4051419, 3923637]
+02/06/2025 09:09:57: INFO: Making database (origin resetted genome)
+02/06/2025 09:09:57: INFO: Constructed database (origin resetted genome) 0 seconds
+02/06/2025 09:09:57: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.0.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+02/06/2025 09:09:57: INFO: cluters detected: 1
+02/06/2025 09:09:58: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/06/2025 09:09:58: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.0.csv
+02/06/2025 09:09:58: INFO: ISs masked genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/06/2025 09:09:58: INFO: Making database (origin resetted genome)
+02/06/2025 09:09:58: INFO: Constructed database (origin resetted genome) 0 seconds
+02/06/2025 09:09:58: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.1.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+02/06/2025 09:09:59: INFO: cluters detected: 10
+02/06/2025 09:10:00: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/06/2025 09:10:00: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.1.csv
+02/06/2025 09:10:00: INFO: ISs masked genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/06/2025 09:10:00: INFO: Making database (origin resetted genome)
+02/06/2025 09:10:00: INFO: Constructed database (origin resetted genome) 0 seconds
+02/06/2025 09:10:00: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.2.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+02/06/2025 09:10:00: INFO: cluters detected: 17
+02/06/2025 09:10:01: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/06/2025 09:10:01: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.2.csv
+02/06/2025 09:10:01: INFO: ISs masked genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/06/2025 09:10:01: INFO: Making database (origin resetted genome)
+02/06/2025 09:10:01: INFO: Constructed database (origin resetted genome) 0 seconds
+02/06/2025 09:10:01: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.3.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.3.fasta
+02/06/2025 09:10:01: INFO: cluters detected: 30
+02/06/2025 09:10:02: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/06/2025 09:10:02: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.3.csv
+02/06/2025 09:10:02: INFO: ISs masked genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/06/2025 09:10:02: INFO: joined IS dfs saved to exp/multiple_runs14/export/is_position_files/L01-1_IS_positions.csv
+02/06/2025 09:10:02: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/06/2025 09:10:03: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/06/2025 09:10:03: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/06/2025 09:10:04: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/06/2025 09:10:04: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/06/2025 09:10:05: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/06/2025 09:10:05: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/06/2025 09:10:07: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.out
+02/06/2025 09:10:07: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/06/2025 09:10:08: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.out
+02/06/2025 09:10:08: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/06/2025 09:10:09: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.out
+02/06/2025 09:10:09: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out
+02/06/2025 09:10:09: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out
+02/06/2025 09:10:09: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out
+02/06/2025 09:10:09: INFO: IS tags for plotsr saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed
+02/06/2025 09:10:09: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf 
+02/06/2025 09:10:11: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf
+02/06/2025 09:10:11: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/06/2025 09:10:11: INFO: deleted IS genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/06/2025 09:10:11: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.rv_coord_transformation.arrow
+02/06/2025 09:10:11: INFO: saved coord tran vecs
+02/06/2025 09:10:12: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/06/2025 09:10:12: INFO: deleted IS genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/06/2025 09:10:12: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.rv_coord_transformation.arrow
+02/06/2025 09:10:12: INFO: saved coord tran vecs
+02/06/2025 09:10:12: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/06/2025 09:10:12: INFO: deleted IS genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/06/2025 09:10:13: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.rv_coord_transformation.arrow
+02/06/2025 09:10:13: INFO: saved coord tran vecs
+02/06/2025 09:10:13: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/06/2025 09:10:13: INFO: deleted IS genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/06/2025 09:10:13: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.rv_coord_transformation.arrow
+02/06/2025 09:10:13: INFO: saved coord tran vecs
+02/06/2025 09:10:13: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/06/2025 09:10:14: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/06/2025 09:10:14: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/06/2025 09:10:15: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/06/2025 09:10:15: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/06/2025 09:10:16: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/06/2025 09:10:16: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/06/2025 09:10:17: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.syri.out
+02/06/2025 09:10:17: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/06/2025 09:10:18: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+02/06/2025 09:10:18: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/06/2025 09:10:20: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.syri.out
+02/06/2025 09:10:20: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out
+02/06/2025 09:10:20: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out
+02/06/2025 09:10:21: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out
+02/06/2025 09:10:21: INFO: syri output lifted up
+02/06/2025 09:10:21: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out
+02/06/2025 09:10:21: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out
+02/06/2025 09:10:21: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out
+02/06/2025 09:10:21: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf 
+02/06/2025 09:10:22: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf
+02/07/2025 14:53:02: INFO: Start running SyRI_IS
+02/07/2025 14:53:02: INFO: CMD: ../src/SyRI_IS/runSyRI_IS.py -i ../fasta/IS1.fasta -p L01-1 --replicationOrigin 3359187 --tmp exp/multiple_runs14/tmp --out exp/multiple_runs14/export --log exp/multiple_runs14/log --rerun -g ../fasta/20230904/MDS42_IS1.fa -g ../fasta/20231004/L01_Anc_m1.fasta -g ../fasta/20250122/L01-1_G08_polish_fix.fasta -g ../fasta/20231003/L01-1_G20.fasta
+02/07/2025 14:53:02: INFO: seqkit restart -i 3359187 ../fasta/20230904/MDS42_IS1.fa > exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:53:03: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:53:03: INFO: Making database (subjectgenome)
+02/07/2025 14:53:03: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:53:03: INFO: searching for origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:53:03: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01_Anc_m1.fasta
+02/07/2025 14:53:03: INFO: found origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta at 1
+02/07/2025 14:53:03: INFO: seqkit restart -i 1 ../fasta/20231004/L01_Anc_m1.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:53:03: INFO: new genome file with reset origin of ../fasta/20231004/L01_Anc_m1.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:53:03: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:53:03: INFO: Making database (subjectgenome)
+02/07/2025 14:53:03: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:53:03: INFO: searching for origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:53:03: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G08_polish_fix.fasta
+02/07/2025 14:53:03: INFO: found origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta at 1
+02/07/2025 14:53:03: INFO: seqkit restart -i 1 ../fasta/20250122/L01-1_G08_polish_fix.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:53:03: INFO: new genome file with reset origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:53:03: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:53:03: INFO: Making database (subjectgenome)
+02/07/2025 14:53:03: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:53:03: INFO: searching for origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:53:03: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G20.fasta
+02/07/2025 14:53:03: INFO: found origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta at 2038698
+02/07/2025 14:53:03: INFO: seqkit restart -i 2038698 ../fasta/20231003/L01-1_G20.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:53:03: INFO: new genome file with reset origin of ../fasta/20231003/L01-1_G20.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:53:03: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:53:03: WARNING: genome_sizes: [3980425, 4003851, 4051419, 3923637]
+02/07/2025 14:53:03: INFO: Making database (origin resetted genome)
+02/07/2025 14:53:03: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:53:03: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.0.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+02/07/2025 14:53:03: INFO: cluters detected: 1
+02/07/2025 14:53:04: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/07/2025 14:53:04: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.0.csv
+02/07/2025 14:53:04: INFO: ISs masked genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/07/2025 14:53:04: INFO: Making database (origin resetted genome)
+02/07/2025 14:53:04: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:53:04: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.1.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+02/07/2025 14:53:04: INFO: cluters detected: 10
+02/07/2025 14:53:05: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/07/2025 14:53:05: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.1.csv
+02/07/2025 14:53:05: INFO: ISs masked genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/07/2025 14:53:05: INFO: Making database (origin resetted genome)
+02/07/2025 14:53:05: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:53:05: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.2.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+02/07/2025 14:53:06: INFO: cluters detected: 17
+02/07/2025 14:53:07: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/07/2025 14:53:07: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.2.csv
+02/07/2025 14:53:07: INFO: ISs masked genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/07/2025 14:53:07: INFO: Making database (origin resetted genome)
+02/07/2025 14:53:07: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:53:07: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.3.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.3.fasta
+02/07/2025 14:53:07: INFO: cluters detected: 30
+02/07/2025 14:53:08: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/07/2025 14:53:08: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.3.csv
+02/07/2025 14:53:08: INFO: ISs masked genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/07/2025 14:53:08: INFO: joined IS dfs saved to exp/multiple_runs14/export/is_position_files/L01-1_IS_positions.csv
+02/07/2025 14:53:08: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/07/2025 14:53:09: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/07/2025 14:53:09: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/07/2025 14:53:10: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/07/2025 14:53:10: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/07/2025 14:53:10: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/07/2025 14:53:10: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:53:12: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.out
+02/07/2025 14:53:12: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:53:13: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.out
+02/07/2025 14:53:13: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:53:14: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.out
+02/07/2025 14:53:14: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out
+02/07/2025 14:53:14: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out
+02/07/2025 14:53:14: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out
+02/07/2025 14:53:14: INFO: IS tags for plotsr saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed
+02/07/2025 14:53:14: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf 
+02/07/2025 14:53:16: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf
+02/07/2025 14:53:16: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/07/2025 14:53:16: INFO: deleted IS genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/07/2025 14:53:16: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.rv_coord_transformation.arrow
+02/07/2025 14:53:16: INFO: saved coord tran vecs
+02/07/2025 14:53:16: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/07/2025 14:53:16: INFO: deleted IS genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/07/2025 14:53:17: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.rv_coord_transformation.arrow
+02/07/2025 14:53:17: INFO: saved coord tran vecs
+02/07/2025 14:53:17: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/07/2025 14:53:17: INFO: deleted IS genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/07/2025 14:53:17: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.rv_coord_transformation.arrow
+02/07/2025 14:53:17: INFO: saved coord tran vecs
+02/07/2025 14:53:17: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/07/2025 14:53:17: INFO: deleted IS genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/07/2025 14:53:18: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.rv_coord_transformation.arrow
+02/07/2025 14:53:18: INFO: saved coord tran vecs
+02/07/2025 14:53:18: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/07/2025 14:53:19: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/07/2025 14:53:19: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/07/2025 14:53:19: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/07/2025 14:53:19: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/07/2025 14:53:20: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/07/2025 14:53:20: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:53:21: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.syri.out
+02/07/2025 14:53:21: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:53:23: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+02/07/2025 14:53:23: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:53:24: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.syri.out
+02/07/2025 14:53:24: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out
+02/07/2025 14:53:24: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out
+02/07/2025 14:53:25: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out
+02/07/2025 14:53:25: INFO: syri output lifted up
+02/07/2025 14:53:25: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out
+02/07/2025 14:53:25: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out
+02/07/2025 14:53:25: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out
+02/07/2025 14:53:25: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf 
+02/07/2025 14:53:26: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf
+02/07/2025 14:54:02: INFO: Start running SyRI_IS
+02/07/2025 14:54:02: INFO: CMD: ../src/SyRI_IS/runSyRI_IS.py -i ../fasta/IS1.fasta -p L01-1 --replicationOrigin 3359187 --tmp exp/multiple_runs14/tmp --out exp/multiple_runs14/export --log exp/multiple_runs14/log --rerun -g ../fasta/20230904/MDS42_IS1.fa -g ../fasta/20231004/L01_Anc_m1.fasta -g ../fasta/20250122/L01-1_G08_polish_fix.fasta -g ../fasta/20231003/L01-1_G20.fasta
+02/07/2025 14:54:02: INFO: seqkit restart -i 3359187 ../fasta/20230904/MDS42_IS1.fa > exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:54:02: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:54:02: INFO: Making database (subjectgenome)
+02/07/2025 14:54:02: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:54:02: INFO: searching for origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/07/2025 14:54:02: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01_Anc_m1.fasta
+02/07/2025 14:54:02: INFO: found origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta at 1
+02/07/2025 14:54:02: INFO: seqkit restart -i 1 ../fasta/20231004/L01_Anc_m1.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:54:02: INFO: new genome file with reset origin of ../fasta/20231004/L01_Anc_m1.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:54:02: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:54:02: INFO: Making database (subjectgenome)
+02/07/2025 14:54:02: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:54:02: INFO: searching for origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/07/2025 14:54:02: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G08_polish_fix.fasta
+02/07/2025 14:54:02: INFO: found origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta at 1
+02/07/2025 14:54:02: INFO: seqkit restart -i 1 ../fasta/20250122/L01-1_G08_polish_fix.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:54:02: INFO: new genome file with reset origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:54:02: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:54:02: INFO: Making database (subjectgenome)
+02/07/2025 14:54:02: INFO: Constructed database (subjectgenome) 0 seconds
+02/07/2025 14:54:02: INFO: searching for origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/07/2025 14:54:02: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G20.fasta
+02/07/2025 14:54:02: INFO: found origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta at 2038698
+02/07/2025 14:54:02: INFO: seqkit restart -i 2038698 ../fasta/20231003/L01-1_G20.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:54:02: INFO: new genome file with reset origin of ../fasta/20231003/L01-1_G20.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:54:02: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/07/2025 14:54:02: WARNING: genome_sizes: [3980425, 4003851, 4051419, 3923637]
+02/07/2025 14:54:02: INFO: Making database (origin resetted genome)
+02/07/2025 14:54:02: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:54:02: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.0.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+02/07/2025 14:54:02: INFO: cluters detected: 1
+02/07/2025 14:54:03: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/07/2025 14:54:03: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.0.csv
+02/07/2025 14:54:03: INFO: ISs masked genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/07/2025 14:54:03: INFO: Making database (origin resetted genome)
+02/07/2025 14:54:03: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:54:03: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.1.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+02/07/2025 14:54:03: INFO: cluters detected: 10
+02/07/2025 14:54:04: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/07/2025 14:54:04: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.1.csv
+02/07/2025 14:54:04: INFO: ISs masked genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/07/2025 14:54:04: INFO: Making database (origin resetted genome)
+02/07/2025 14:54:04: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:54:04: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.2.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+02/07/2025 14:54:05: INFO: cluters detected: 17
+02/07/2025 14:54:05: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/07/2025 14:54:05: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.2.csv
+02/07/2025 14:54:05: INFO: ISs masked genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/07/2025 14:54:05: INFO: Making database (origin resetted genome)
+02/07/2025 14:54:05: INFO: Constructed database (origin resetted genome) 0 seconds
+02/07/2025 14:54:05: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.3.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.3.fasta
+02/07/2025 14:54:06: INFO: cluters detected: 30
+02/07/2025 14:54:07: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/07/2025 14:54:07: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.3.csv
+02/07/2025 14:54:07: INFO: ISs masked genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/07/2025 14:54:07: INFO: joined IS dfs saved to exp/multiple_runs14/export/is_position_files/L01-1_IS_positions.csv
+02/07/2025 14:54:07: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/07/2025 14:54:08: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/07/2025 14:54:08: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/07/2025 14:54:08: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/07/2025 14:54:08: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/07/2025 14:54:09: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/07/2025 14:54:09: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:54:11: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.out
+02/07/2025 14:54:11: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:54:12: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.out
+02/07/2025 14:54:12: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/07/2025 14:54:13: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.out
+02/07/2025 14:54:13: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out
+02/07/2025 14:54:13: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out
+02/07/2025 14:54:13: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out
+02/07/2025 14:54:13: INFO: IS tags for plotsr saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed
+02/07/2025 14:54:13: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf 
+02/07/2025 14:54:14: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf
+02/07/2025 14:54:15: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/07/2025 14:54:15: INFO: deleted IS genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/07/2025 14:54:15: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.rv_coord_transformation.arrow
+02/07/2025 14:54:15: INFO: saved coord tran vecs
+02/07/2025 14:54:15: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/07/2025 14:54:15: INFO: deleted IS genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/07/2025 14:54:16: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.rv_coord_transformation.arrow
+02/07/2025 14:54:16: INFO: saved coord tran vecs
+02/07/2025 14:54:16: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/07/2025 14:54:16: INFO: deleted IS genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/07/2025 14:54:16: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.rv_coord_transformation.arrow
+02/07/2025 14:54:16: INFO: saved coord tran vecs
+02/07/2025 14:54:16: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/07/2025 14:54:16: INFO: deleted IS genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/07/2025 14:54:17: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.rv_coord_transformation.arrow
+02/07/2025 14:54:17: INFO: saved coord tran vecs
+02/07/2025 14:54:17: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/07/2025 14:54:17: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/07/2025 14:54:17: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/07/2025 14:54:18: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/07/2025 14:54:18: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/07/2025 14:54:19: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/07/2025 14:54:19: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:54:20: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.syri.out
+02/07/2025 14:54:20: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:54:21: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+02/07/2025 14:54:21: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/07/2025 14:54:23: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.syri.out
+02/07/2025 14:54:23: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out
+02/07/2025 14:54:23: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out
+02/07/2025 14:54:24: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out
+02/07/2025 14:54:24: INFO: syri output lifted up
+02/07/2025 14:54:24: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out
+02/07/2025 14:54:24: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out
+02/07/2025 14:54:24: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out
+02/07/2025 14:54:24: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf 
+02/07/2025 14:54:25: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf
+02/15/2025 20:46:47: INFO: Start running SyRI_IS
+02/15/2025 20:46:47: INFO: CMD: ../src/SyRI_IS/runSyRI_IS.py -i ../fasta/IS1.fasta -p L01-1 --replicationOrigin 3359187 --tmp exp/multiple_runs14/tmp --out exp/multiple_runs14/export --log exp/multiple_runs14/log --rerun -g ../fasta/20230904/MDS42_IS1.fa -g ../fasta/20231004/L01_Anc_m1.fasta -g ../fasta/20250122/L01-1_G08_polish_fix.fasta -g ../fasta/20231003/L01-1_G20.fasta
+02/15/2025 20:46:47: INFO: seqkit restart -i 3359187 ../fasta/20230904/MDS42_IS1.fa > exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/15/2025 20:46:47: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/15/2025 20:46:47: INFO: Making database (subjectgenome)
+02/15/2025 20:46:47: INFO: Constructed database (subjectgenome) 0 seconds
+02/15/2025 20:46:47: INFO: searching for origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta
+02/15/2025 20:46:47: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01_Anc_m1.fasta
+02/15/2025 20:46:47: INFO: found origin of ../fasta/20231004/L01_Anc_m1.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fasta at 1
+02/15/2025 20:46:47: INFO: seqkit restart -i 1 ../fasta/20231004/L01_Anc_m1.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/15/2025 20:46:47: INFO: new genome file with reset origin of ../fasta/20231004/L01_Anc_m1.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/15/2025 20:46:47: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/15/2025 20:46:47: INFO: Making database (subjectgenome)
+02/15/2025 20:46:47: INFO: Constructed database (subjectgenome) 0 seconds
+02/15/2025 20:46:47: INFO: searching for origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta
+02/15/2025 20:46:47: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G08_polish_fix.fasta
+02/15/2025 20:46:47: INFO: found origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fasta at 1
+02/15/2025 20:46:47: INFO: seqkit restart -i 1 ../fasta/20250122/L01-1_G08_polish_fix.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/15/2025 20:46:47: INFO: new genome file with reset origin of ../fasta/20250122/L01-1_G08_polish_fix.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/15/2025 20:46:47: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/15/2025 20:46:47: INFO: Making database (subjectgenome)
+02/15/2025 20:46:47: INFO: Constructed database (subjectgenome) 0 seconds
+02/15/2025 20:46:47: INFO: searching for origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta
+02/15/2025 20:46:47: INFO: blastn -task blastn -query exp/multiple_runs14/tmp/L01-1/refgenomeOrigin.fasta.0 -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/subjectgenomeOriginSearch-0-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_G20.fasta
+02/15/2025 20:46:47: INFO: found origin of ../fasta/20231003/L01-1_G20.fasta in exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fasta at 2038698
+02/15/2025 20:46:47: INFO: seqkit restart -i 2038698 ../fasta/20231003/L01-1_G20.fasta > exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/15/2025 20:46:47: INFO: new genome file with reset origin of ../fasta/20231003/L01-1_G20.fasta saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/15/2025 20:46:47: INFO: origin resetted genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fasta
+02/15/2025 20:46:47: WARNING: genome_sizes: [3980425, 4003851, 4051419, 3923637]
+02/15/2025 20:46:47: INFO: Making database (origin resetted genome)
+02/15/2025 20:46:47: INFO: Constructed database (origin resetted genome) 0 seconds
+02/15/2025 20:46:47: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.0.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.0.fasta
+02/15/2025 20:46:47: INFO: cluters detected: 1
+02/15/2025 20:46:48: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/15/2025 20:46:48: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.0.csv
+02/15/2025 20:46:48: INFO: ISs masked genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta
+02/15/2025 20:46:48: INFO: Making database (origin resetted genome)
+02/15/2025 20:46:48: INFO: Constructed database (origin resetted genome) 0 seconds
+02/15/2025 20:46:48: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.1.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.1.fasta
+02/15/2025 20:46:48: INFO: cluters detected: 10
+02/15/2025 20:46:49: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/15/2025 20:46:49: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.1.csv
+02/15/2025 20:46:49: INFO: ISs masked genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta
+02/15/2025 20:46:49: INFO: Making database (origin resetted genome)
+02/15/2025 20:46:49: INFO: Constructed database (origin resetted genome) 0 seconds
+02/15/2025 20:46:49: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.2.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.2.fasta
+02/15/2025 20:46:49: INFO: cluters detected: 17
+02/15/2025 20:46:50: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/15/2025 20:46:50: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.2.csv
+02/15/2025 20:46:50: INFO: ISs masked genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta
+02/15/2025 20:46:50: INFO: Making database (origin resetted genome)
+02/15/2025 20:46:50: INFO: Constructed database (origin resetted genome) 0 seconds
+02/15/2025 20:46:50: INFO: blastn -task blastn -query ../fasta/IS1.fasta -evalue 1e-10 -num_threads 1 -outfmt "7 sseqid qseqid qstart qend sstart send length evalue" -out exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.blastn.3.fasta-blastn -db exp/multiple_runs14/tmp/L01-1/blastdb/L01-1_genome.3.fasta
+02/15/2025 20:46:51: INFO: cluters detected: 30
+02/15/2025 20:46:51: INFO: masked genome saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/15/2025 20:46:51: INFO: blastn results saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_positions_in_subjectgenome.3.csv
+02/15/2025 20:46:51: INFO: ISs masked genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta
+02/15/2025 20:46:51: INFO: joined IS dfs saved to exp/multiple_runs14/export/is_position_files/L01-1_IS_positions.csv
+02/15/2025 20:46:51: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/15/2025 20:46:52: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam
+02/15/2025 20:46:52: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/15/2025 20:46:53: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam
+02/15/2025 20:46:53: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/15/2025 20:46:54: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam
+02/15/2025 20:46:54: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/15/2025 20:46:55: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.out
+02/15/2025 20:46:55: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/15/2025 20:46:56: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.out
+02/15/2025 20:46:56: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam_is_masked/L01-1_genome.masked.IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/L01-1_genome.masked.IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/syri -F B --maxsize 100 
+02/15/2025 20:46:57: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.out
+02/15/2025 20:46:57: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out
+02/15/2025 20:46:57: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out
+02/15/2025 20:46:57: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out
+02/15/2025 20:46:58: INFO: IS tags for plotsr saved to exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed
+02/15/2025 20:46:58: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.0.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.1.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/syri/L01-1.2.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf 
+02/15/2025 20:46:59: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr/L01-1_plotsr.pdf
+02/15/2025 20:46:59: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/15/2025 20:46:59: INFO: deleted IS genome 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta
+02/15/2025 20:46:59: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.0.rv_coord_transformation.arrow
+02/15/2025 20:46:59: INFO: saved coord tran vecs
+02/15/2025 20:46:59: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/15/2025 20:46:59: INFO: deleted IS genome 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta
+02/15/2025 20:47:00: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.1.rv_coord_transformation.arrow
+02/15/2025 20:47:00: INFO: saved coord tran vecs
+02/15/2025 20:47:00: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/15/2025 20:47:00: INFO: deleted IS genome 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta
+02/15/2025 20:47:00: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.2.rv_coord_transformation.arrow
+02/15/2025 20:47:00: INFO: saved coord tran vecs
+02/15/2025 20:47:00: INFO: created exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/15/2025 20:47:00: INFO: deleted IS genome 3 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta
+02/15/2025 20:47:01: INFO: Coordinate transformation vectors saved to exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.fw_coord_transformation.arrow and exp/multiple_runs14/tmp/L01-1/L01-1_genome.3.rv_coord_transformation.arrow
+02/15/2025 20:47:01: INFO: saved coord tran vecs
+02/15/2025 20:47:01: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/15/2025 20:47:01: INFO: bamfile 0 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam
+02/15/2025 20:47:01: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/15/2025 20:47:02: INFO: bamfile 1 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam
+02/15/2025 20:47:02: INFO: minimap2 -ax asm20 --eqx -H -f 100 -r1k,10k --rmq=no -t 4 exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta | samtools sort -O BAM - > exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam ; samtools index exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/15/2025 20:47:03: INFO: bamfile 2 generated and saved to exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam
+02/15/2025 20:47:03: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.1.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.0.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta --prefix L01-1.0. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/15/2025 20:47:04: INFO: syri output 0 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.syri.out
+02/15/2025 20:47:04: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.2.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.1.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta --prefix L01-1.1. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/15/2025 20:47:05: INFO: syri output 1 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.syri.out
+02/15/2025 20:47:05: INFO: syri -c exp/multiple_runs14/tmp/L01-1/bam/L01-1_genome.deleted_IS.3.prev_align.bam -r exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.2.fasta -q exp/multiple_runs14/tmp/L01-1/is_deleted/L01-1_genome.deleted_IS.3.fasta --prefix L01-1.2. --allow-offset 5 --cigar --dir exp/multiple_runs14/tmp/L01-1/is_deleted/syri -F B --maxsize 100 
+02/15/2025 20:47:06: INFO: syri output 2 generated and saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.syri.out
+02/15/2025 20:47:07: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.out
+02/15/2025 20:47:07: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.out
+02/15/2025 20:47:07: INFO: converted syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.out
+02/15/2025 20:47:07: INFO: syri output lifted up
+02/15/2025 20:47:07: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out
+02/15/2025 20:47:07: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out
+02/15/2025 20:47:07: INFO: local alignment version of syri output saved to exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out
+02/15/2025 20:47:07: INFO: plotsr  --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.0.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.1.rv_coord.syri.local.out --sr exp/multiple_runs14/tmp/L01-1/is_deleted/syri/L01-1.2.rv_coord.syri.local.out --genomes exp/multiple_runs14/tmp/L01-1/L01-1_plotsR_genomes.txt --markers exp/multiple_runs14/tmp/L01-1/L01-1_IS_tags_for_plotsr.bed -s 100  -o exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf 
+02/15/2025 20:47:08: INFO: plotsr output saved to exp/multiple_runs14/export/plotsr-isrm/L01-1_isrm_plotsr.pdf
