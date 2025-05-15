@@ -1,0 +1,9 @@
+
+final_rebased_fasta.tar.xz includes all the fasta files after bringing the origin to the begining.
+0, 1, 2, 3 in for L01-1_genome.{NUM}.fasta indicate genomes of
+0: MDS42 + IS1, 1: before MA, 2: after eight passages, 3: after 20 passages.
+
+Analysis was run by reading the File_list_xxxx.csv from the first ipynb YYYYMMDD_01_multiple_runs.ipynb,
+which reads the right fasta in the folder names with dates.
+
+IS1.fasta includes the sequence of IS1-YK2X8.

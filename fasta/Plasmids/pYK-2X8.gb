@@ -1,0 +1,370 @@
+LOCUS       pYK-2X8                 7197 bp    DNA     circular SYN 22-APR-2025
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 7197)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Apr 22, 2025 from SnapGene 8.0.3
+            https://www.snapgene.com
+COMMENT     202211 constructedAdded Synthesis IDT to remove outward 
+            transcription that potentially hinders transposition.
+COMMENT     Sequence Label: p15A_IS1FS-RFP-short3_Vlox43-BsaI-rm
+FEATURES             Location/Qualifiers
+     source          1..7197
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     promoter        1..105
+                     /label=AmpR promoter
+                     /note="gene: bla"
+     CDS             106..966
+                     /label=AmpR
+                     /note="codon_start: 1 gene: bla note: confers resistance to
+                     ampicillin, carbenicillin, and related antibiotics product:
+                     beta-lactamase transl_table: 1 translation: 
+                     MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESF
+                     RPEERFPMMSTFKVLLCGAVLSRIDSGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTV
+                     RELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDER
+                     DTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGA
+                     GERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+     terminator      975..1021
+                     /label=rrnB T1 terminator
+                     /note="note: transcription terminator T1 from the E. coli 
+                     rrnB gene"
+     rep_origin      1143..1688
+                     /label=p15A ori
+                     /note="direction: RIGHT note: Plasmids containing the 
+                     medium-copy-number p15A origin of replication can be 
+                     propagated in E. coli cells that contain a second plasmid 
+                     with the ColE1 origin."
+     terminator      1736..1830
+                     /label=lambda t0 terminator
+                     /note="gene: note: transcription terminator from phage 
+                     lambda"
+     misc_feature    1840..2358
+                     /label=gpmA_HA_YK
+     primer_bind     1840..1859
+                     /label=gpmA_inner_Rv
+     CDS             complement(2416..3075)
+                     /label=CmR
+                     /note="codon_start: 1 gene: cat note: confers resistance to
+                     chloramphenicol product: chloramphenicol acetyltransferase 
+                     transl_table: 1 translation: 
+                     MEKKITGYTTVDISQWHRKEHFEAFQSVAQCTYNQTVQLDITAFLKTVKKNKHKFYPAF
+                     IHILARLMNAHPEFRMAMKDGELVIWDSVHPCYTVFHEQTETFSSLWSEYHDDFRQFLH
+                     IYSQDVACYGENLAYFPKGFIENMFFVSANPWVSFTSFDLNVANMDNFFAPVFTMGKYY
+                     TQGDKVLMPLAIQVHHAVCDGFHVGRMLNELQQYCDEWQGGA*"
+     promoter        complement(3076..3178)
+                     /label=cat promoter
+                     /note="note: promoter of the E. coli cat gene"
+     mobile_element  complement(3183..3274)
+                     /label=Mu attR region
+                     /note="mobile_element_type: other: Mu Phage"
+     misc_feature    3183..3187
+                     /label=5bps do not delete
+     misc_feature    complement(3188..3209)
+                     /label=Mu R1
+                     /note="note: StartFragment[1] S. Haapa, S. Taira, E. 
+                     Heikkinen, and H. Savilahti, "An efficient and accurate 
+                     integration of mini-Mu transposons in vitro : a general 
+                     methodology for functional genetic analysis and molecular 
+                     biology applications," vol. 27, no. 13, pp. 2777–2784, 
+                     1999.EndFragment"
+     misc_feature    complement(3210..3231)
+                     /label=Mu R2
+                     /note="note: StartFragment[1] S. Haapa, S. Taira, E. 
+                     Heikkinen, and H. Savilahti, "An efficient and accurate 
+                     integration of mini-Mu transposons in vitro: A general 
+                     methodology for functional genetic analysis and molecular 
+                     biology applications," Nucleic Acids Res., vol. 27, no. 13,
+                     pp. 2777–2784, 1999.EndFragment"
+     mobile_element  complement(3290..6382)
+                     /mobile_element_type="insertion sequence:Artificially 
+                     modified from Ecoli IS1A"
+                     /label=IS1-YK2X8
+     mobile_element  complement(3290..3312)
+                     /label=IS1-IRR
+                     /note="mobile_element_type: insertion sequence: "
+     gene            complement(3313..3327)
+                     /label=insB-1
+                     /note="db_xref: ASAP: ABE-0000075 db_xref: ECOCYC: G6085 
+                     db_xref: EcoGene: EG60002 db_xref: GeneID: 944743 gene: 
+                     insB-1 gene_synonym: ECK0022 locus_tag: b0021"
+     terminator      complement(3329..3399)
+                     /label=rrnB T1 terminator
+                     /note="note: transcription terminator T1 from the E. coli 
+                     rrnB gene"
+     mobile_element  complement(3426..3464)
+                     /label=IS3-IRR
+                     /note="mobile_element_type: insertion sequence: "
+     CDS             complement(3468..4166)
+                     /label=mScarlet-I
+                     /note="codon_start: 1 transl_table: 1 translation: 
+                     MVSKGEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQTAKLKVTKGGPLPFSW
+                     DILSPQFMYGSRAFIKHPADIPDYYKQSFPEGFKWERVMNFEDGGAVTVTQDTSLEDGT
+                     LIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDGVLKGDIKMALRLKDGGRYLAD
+                     FKTTYKAKKPVQMPGAYNVDRKLDITSHNEDYTVVEQYERSEGRHSTGGMDELYK*"
+     RBS             complement(4167..4194)
+                     /label=apFAB909
+     promoter        complement(4195..4234)
+                     /label=J23102
+     misc_feature    4259..4276
+                     /label=I-SceI
+     protein_bind    4277..4310
+                     /label=loxPsym
+                     /note="bound_moiety: Cre recombinase note: loxPsym has a 
+                     symmetric spacer region, and loxPsym sites are capable of 
+                     recombining in either orientation (Hoess et al., 1986)."
+     promoter        4312..4354
+                     /label=apFAB58
+                     /note="note: ~J23101StartFragment1. Kosuri,S., 
+                     Goodman,D.B., Cambray,G., Mutalik,V.K., Gao,Y., Arkin,A.P.,
+                     Endy,D. and Church,G.M. (2013) Composability of regulatory 
+                     sequences controlling transcription and translation in 
+                     Escherichia coli. Proc. Natl. Acad. Sci. U. S. A., 110, 
+                     14024–14029.2. Mutalik,V.K., Guimaraes,J.C., Cambray,G., 
+                     Lam,C., Christoffersen,M.J., Mai,Q.A., Tran,A.B., Paull,M.,
+                     Keasling,J.D., Arkin,A.P., et al. (2013) Precise and 
+                     reliable gene expression via standard transcription and 
+                     translation initiation elements. Nat. Methods 2013 104, 10,
+                     354–360.EndFragment"
+     RBS             4355..4376
+                     /label=BBa_J61125
+     mobile_element  4377..4415
+                     /label=IS3-IRR
+                     /note="mobile_element_type: insertion sequence: "
+     misc_feature    4463..4496
+                     /label=VLox43L
+                     /note="note: StartFragment1. Suzuki,E. and Nakayama,M. 
+                     (2011) VCre/VloxP and SCre/SloxP: new site-specific 
+                     recombination systems for genome engineering. Nucleic Acids
+                     Res., 39, e49–e49.EndFragment"
+     CDS             complement(4526..5149)
+                     /label=TetR
+                     /note="codon_start: 1 gene: tetR from transposon Tn10 note:
+                     TetR binds to the tetracycline operator tetO to inhibit 
+                     transcription. This inhibition can be relieved by adding 
+                     tetracycline or doxycycline. product: tetracycline 
+                     repressor TetR protein_id: transl_table: 1 translation: 
+                     MSRLDKSKVINSALELLNEVGIEGLTTRKLAQKLGVEQPTLYWHVKNKRALLDALAIEM
+                     LDRHHTHFCPLEGESWQDFLRNNAKSFRCALLSHRDGAKVHLGTRPTEKQYETLENQLA
+                     FLCQQGFSLENALYALSAVGHFTLGCVLEDQEHQVAKEERETPTTDSMPPLLRQAIELF
+                     DHQGAEPAFLFGLELIICGLEKQLKCESGS*"
+     promoter        complement(5178..5231)
+                     /label=PLacI
+     terminator      complement(5236..5296)
+                     /label=L3S2P21
+                     /note="note: Chen, Y. J.; Liu, P.; Nielsen, A. A.; Brophy, 
+                     J. A.; Clancy, K.; Peterson, T.; Voigt, C. A., 
+                     Characterizationof 582 natural and synthetic terminators 
+                     and quantification of their design constraints. Nat Methods
+                     2013, 10 (7), 659-64"
+     CDS             complement(5321..6019)
+                     /label=IS1FS
+                     /note="codon_start: 1 transl_table: 1 translation: 
+                     MASVSISCPSCSATDGVVRNGKSTAGHQRYLCSHCRKTWQLQFTYTASQPGTHQKIIDM
+                     AMNGVGCRATARIMGVGLNTILRHLKKLRPQSVTSRIQPGSDVIVCAEMDEQWGYVGAK
+                     SRQRWLFYAYDSLRKTVVAHVFGERTMATLGRLMSLLSPFDVVIWMTDGWPLYESRLKG
+                     KLHVISKRYTQRIERHNLNLRQHLARLGRKSLSFSKSVELHDKVIGHYLNIKHYQ*"
+     CDS             complement(5321..5825)
+                     /label=insB-1
+                     /note="codon_start: 1 db_xref: GI: 16128015 db_xref: 
+                     UniProtKB/Swiss-Prot: P0CF25 db_xref: ASAP: ABE-0000075 
+                     db_xref: ECOCYC: G6085 db_xref: EcoGene: EG60002 db_xref: 
+                     GeneID: 944743 gene: insB-1 gene_synonym: ECK0022 
+                     locus_tag: b0021 product: IS1 protein InsB protein_id: 
+                     NP_414562.1 transl_table: 11 translation: 
+                     MPGNSPHYGRWPQHDFTSLEETQAAVGNLAHTAGQ*RHRLRGNGRTVGLCRG*IAPALA
+                     VLRV*QSPEDGCCARIR*THYGDAGASYEPAVTL*RGDMDDGWLAAV*IPPEGKAARNQ
+                     QAIYAAN*AA*PESEAAPGTAGTEVAVVLKIGGAA*QSDWPLPEHQTLPV"
+     CDS             complement(5743..6018)
+                     /label=insA-1
+                     /note="codon_start: 1 db_xref: GI: 16128016 db_xref: 
+                     UniProtKB/Swiss-Prot: P0CF07 db_xref: ASAP: ABE-0000078 
+                     db_xref: ECOCYC: G6086 db_xref: EcoGene: EG40001 db_xref: 
+                     GeneID: 948449 gene: insA-1 gene_synonym: ECK0023 
+                     locus_tag: b0022 product: IS1 protein InsA protein_id: 
+                     NP_414563.1 transl_table: 11 translation: 
+                     ASVSISCPSCSATDGVVRNGKSTAGHQRYLCSHCRKTWQLQFTYTASQPGTHQKIIDMA
+                     MNGVGCRATARIMGVGLNTILRHLKKLRPQSV"
+     misc_feature    5761
+                     /label=A6C
+     RBS             complement(6020..6045)
+                     /label=BBa_B0064
+                     /note="note: biobrick RBS"
+     misc_RNA        complement(6046..6125)
+                     /label=RiboJ
+     protein_bind    6136..6154
+                     /label=tet operator
+                     /note="bound_moiety: tetracycline repressor TetR gene: tetO
+                     note: bacterial operator O2 for the tetR and tetA genes"
+     protein_bind    6161..6179
+                     /label=tet operator
+                     /note="bound_moiety: tetracycline repressor TetR gene: tetO
+                     note: bacterial operator O2 for the tetR and tetA genes"
+     terminator      complement(6202..6272)
+                     /label=L3S3P21
+                     /note="note: Very strong terminatorStartFragment1. 
+                     Chen,Y.J., Liu,P., Nielsen,A.A.K., Brophy,J.A.N., 
+                     Clancy,K., Peterson,T. and Voigt,C.A. (2013) 
+                     Characterization of 582 natural and synthetic terminators 
+                     and quantification of their design constraints. Nat. 
+                     Methods, 10, 659–664.EndFragment"
+     misc_feature    6210
+                     /label=g->A
+     misc_feature    6227
+                     /label=c->G
+     misc_feature    6302..6335
+                     /label=VLox43R
+                     /note="note: StartFragment1. Suzuki,E. and Nakayama,M. 
+                     (2011) VCre/VloxP and SCre/SloxP: new site-specific 
+                     recombination systems for genome engineering. Nucleic Acids
+                     Res., 39, e49–e49.EndFragment"
+     terminator      6351..6355
+                     /label=L3S3P45
+                     /note="note: Terminator to stop transctiption from SYFP2 to
+                     interfere with downstream genes aftre recombination by 
+                     VloxP."
+     mobile_element  6360..6382
+                     /label=IS1-IRL
+                     /note="mobile_element_type: insertion sequence: IS1"
+     mobile_element  6398..6570
+                     /label=Mu attL
+                     /note="mobile_element_type: other: Mu phage"
+     misc_feature    6571..6576
+                     /label=5bps do not delete
+                     /note="note: 
+                     StartFragment'>https://reader.elsevier.com/reader/sd/pii/S0
+                     022283601951770?token=D05D069B62C02D2E941E5958156A618ABF537
+                     EF766E0E84B82F0646CC0EA424D7F86142083A3042EA1D240A71ECD7CDC
+                     EndFragment"
+     misc_feature    6590..7029
+                     /label=galM_HA_YK
+     primer_bind     complement(7010..7029)
+                     /label=galM_inner_Fw
+BASE COUNT         1846 a         1760 c         1672 g         1919 t
+ORIGIN
+        1 cgcggaaccc ctatttgttt atttttctaa atacattcaa atatgtatcc gctcatgaga
+       61 caataaccct gataaatgct tcaataatat tgaaaaagga agagtatgag tattcaacat
+      121 ttccgtgtcg cccttattcc cttttttgcg gcattttgcc ttcctgtttt tgctcaccca
+      181 gaaacgctgg tgaaagtaaa agatgctgaa gatcagttgg gtgcacgagt gggttacatc
+      241 gaactggatc tcaacagcgg taagatcctt gagagttttc gccccgaaga acgttttcca
+      301 atgatgagca cttttaaagt tctgctatgt ggcgcggtat tatcccgtat tgactccggg
+      361 caagagcaac tcggtcgccg catacactat tctcagaatg acttggttga gtactcacca
+      421 gtcacagaaa agcatcttac ggatggcatg acagtaagag aattatgcag tgctgccata
+      481 accatgagtg ataacactgc ggccaactta cttctgacaa cgatcggagg accgaaggag
+      541 ctaaccgctt ttttgcacaa catgggggat catgtaactc gccttgatcg ttgggaaccg
+      601 gagctgaatg aagccatacc aaacgacgag cgtgacacca cgatgcctgt agcaatggca
+      661 acaacgttgc gcaaactatt aactggcgaa ctacttactc tagcttcccg gcaacaatta
+      721 atagactgga tggaggcgga taaagttgca ggaccacttc tgcgctcggc ccttccggct
+      781 ggctggttta ttgctgataa atctggagcc ggtgagcgtg ggtcccgcgg tatcattgca
+      841 gcactggggc cagatggtaa gccctcccgt atcgtagtta tctacacgac ggggagtcag
+      901 gcaactatgg atgaacgaaa tagacagatc gctgagatag gtgcctcact gattaagcat
+      961 tggtaaccag gcatcaaata aaacgaaagg cttagtcgaa agactgggcc tttcgtttta
+     1021 tctgttgttt gtcggtgaac tggataccgc acagatgcgt aaggagaaaa taccgcatca
+     1081 ggcgctctag acctagggta cgcgggagcg gatttgaacg tttgattaat aagatgatct
+     1141 tcttgagatc gttttggtct gcgtgtaatc tcttgctctg aaaacgaaaa aaccgccttg
+     1201 cagggcggtt tttcgaaggt tctctgagct accaactctt tgaaccgagg taactggctt
+     1261 ggaggagcgc agtcaccaaa acttgtcctt tcagtttagc cttaaccggc gcatgacttc
+     1321 aagactaact cctctaaatc aattaccagt ggctgctgcc agtggtgctt ttgcatgtct
+     1381 ttccgggttg gactcaagac gatagttacc ggataaggcg cagcggtcgg actgaacggg
+     1441 gggttcgtgc atacagtcca gcttggagcg aactgcctac ccggaactga gtgtcaggcg
+     1501 tggaatgaga caaacgcggc cataacagcg gaatgacacc ggtaaaccga aaggcaggaa
+     1561 caggagagcg cacgagggag ccgccagggg gaaacgcctg gtatctttat agtcctgtcg
+     1621 ggtttcgcca ccactgattt gagcgtcaga tttcgtgatg cttgtcaggg gggcggagcc
+     1681 tatggaaaaa cggctttgcc gcggccctca gtcacgatga attcccctag cttggattct
+     1741 caccaataaa aaacgcccgg cggcaaccga gcgttctgaa caaatccaga tggagttctg
+     1801 aggtcattac tggatctatc aacaggagtc caagcttatg tgacccggat aacgctcatc
+     1861 atctttagtc agttccggcg gagtcactgc aaaaccacga cgccactgtt tcacctgctc
+     1921 gtcgccatac ttttcagcag tttccgcttt gttcagaccc tgcaacgcac cgtagtgacg
+     1981 ttcgttcagt ttccaggatt tctcaacggg cagccatgcc tgatccagtt cgtccagcac
+     2041 attccacagg gtatggatag cgcgtttcag cacagaagtg taagcaaagt caaagctgta
+     2101 accttcctct ttcagcagct tacctgctgc ttttgcttcg cttacgcctt tctcagacag
+     2161 atccacgtcg taccaaccgg tgaaacggtt ttctttgttc cactgacttt cgccatgacg
+     2221 aaccagaacc agcttagtta cagccatata cttactcctc aaatcatctt ttaatgataa
+     2281 taattctcat tatattgccg cgacgaagca acagcaatgc ttacgcataa ccatagcgaa
+     2341 aatagtggcg cagtgtaaca ggcaggaact tcggaatgca ggcgtttaag ggcaccaata
+     2401 actgccttaa aaaaattacg ccccgccctg ccactcatcg cagtactgtt gtaattcatt
+     2461 aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa tcgccagcgg
+     2521 catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg gggcgaagaa
+     2581 gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg gattggctga
+     2641 gacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt caccgtaaca
+     2701 cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt attcactcca
+     2761 gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt gaacactatc
+     2821 ccatatcacc agctcaccgt ctttcattgc catacggaat tccggatgag cattcatcag
+     2881 gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct ttacggtctt
+     2941 taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag caactgactg
+     3001 aaatgcctca aaatgttctt tacgatgcca ttgggatata tcaacggtgg tatatccagt
+     3061 gatttttttc tccattttag cttccttagc tcctgaaaat ctcgataact caaaaaatac
+     3121 gcccggtagt gatcttattt cattatggtg aaagttggaa cctcttacgt gccgatcaac
+     3181 gttgaagcgg cgcacgaaaa acgcgaaagc gtttcacgat aaatgcgaaa actttagctt
+     3241 tcgcgcttca aatgaaacag atgtattaat tactagagta gtaattgctg gtaatgactc
+     3301 caacttattg atagtgtttt atgttcagag agcgttcacc gacaaacaac agataaaacg
+     3361 aaaggcccag tctttcgact gagcctttcg ttttatttga tgcctggacc cttactgacc
+     3421 atttatgatc ctacccacgt aatatggaca caggcctaag cgagtcctta tttataaagc
+     3481 tcgtccatac cgcctgtgct atgccggcct tcagagcgct catactgttc aaccactgtg
+     3541 taatcctcat tgtggctggt gatatcaagc ttccggtcta cattgtaagc gcccggcatc
+     3601 tgaacaggct tctttgcctt gtacgtggtc ttgaagtcgg ccagatagcg cccgccgtcc
+     3661 ttgagtcgca gtgccatttt aatgtcgccc ttcaacacgc cgtcctcggg ataaagtctc
+     3721 tcagtggatg cttcccatcc catcgttttc ttttgcatca ccgggccgtc aggtggaaag
+     3781 ttggtcccac ggagcttaac cttgtagatc aatgtcccat cctccaacga cgtgtcctgg
+     3841 gtcacggtta ctgcgccgcc atcttcgaag ttcattacgc gttcccactt gaatccctca
+     3901 gggaaggact gcttgtagta atcgggaata tcagccgggt gcttaatgaa ggcccgactc
+     3961 ccgtacatga actggggact gaggatatcc caactaaagg ggagcggccc gcctttggtc
+     4021 acctttaatt tggcggtctg agtgccttcg taggggcgac cttcaccctc gccctcaatt
+     4081 tcgaactcgt ggccgttcat ggaaccttcc atgtggactt taaagcgcat gaactcctta
+     4141 atgacagcct cgcccttgga caccatatga aactatcctt cgctagatta agataggttg
+     4201 ctagcacagt acctaggact gagctagctg tcaaccgcac tgagaagccc ttagagcgta
+     4261 gggataacag ggtaatataa cttcgtataa tgtacattat acgaagttat cttgacataa
+     4321 agtctaacct ataggtagat ttaacgtatt ctgatctaga gaaagagccg agttacctcg
+     4381 cttaggcctg tgtccatatt acgtgggtag gatcataagc gatggttagt acgaactgta
+     4441 taaataatag taacattggt aacgtgattc tgagaactgt cattctcgga aattgaaccg
+     4501 ggtacccagc tttacaggat ccttatcagg acccactttc acatttaagt tgtttttcta
+     4561 atccgcatat gatcaattca aggccgaata agaaggctgg ctctgcacct tggtgatcaa
+     4621 ataattcgat agcttgtcgt aataatggcg gcatactatc agtagtaggt gtttcccttt
+     4681 cttctttagc gacttgatgc tcttgatctt ccaatacgca acctaaagta aaatgcccca
+     4741 cagcgctgag tgcatataat gcattctcta gtgaaaaacc ttgttggcat aaaaaggcta
+     4801 attgattttc gagagtttca tactgttttt ctgtaggccg tgtacctaaa tgtacttttg
+     4861 ctccatcgcg atgacttagt aaagcacatc taaaactttt agcgttatta cgtaaaaaat
+     4921 cttgccagct ttccccttct aaagggcaaa agtgagtatg gtgcctatct aacatctcaa
+     4981 tggctaaggc gtcgagcaaa gcccgcttat tttttacatg ccaatacaat gtaggctgct
+     5041 ctacacctag cttctgggcg agtttacggg ttgttaaacc ttcgattccg acctcattaa
+     5101 gcagctctaa tgcgctgtta atcactttac ttttatctaa tctggacata ttcaccaccc
+     5161 tgaattgact ctcttccggg cgctatcatg ccataccgcg aaaggttttg cgccattcga
+     5221 tggcgcgccg ccattggacc aaaacgaaaa aaggcccccc tttcgggagg cctcttttct
+     5281 ggaatttggt accgagtcca tacccgtttt ttgggctaac ttactggtag tgtttgatgt
+     5341 tcaggtagtg gccaatcact ttgtcatgca gctccaccga ttttgagaac gacagcgact
+     5401 tccgtcccag ccgtgccagg tgctgcctca gattcaggtt atgccgctca attcgctgcg
+     5461 tatatcgctt gctgattacg tgcagctttc ccttcaggcg ggattcatac agcggccagc
+     5521 catccgtcat ccatatcacc acgtcaaagg gtgacagcag gctcataaga cgccccagcg
+     5581 tcgccatagt gcgttcaccg aatacgtgcg caacaaccgt cttccggaga ctgtcatacg
+     5641 cgtaaaacag ccagcgctgg cgcgatttag ccccgacata gccccactgt tcgtccattt
+     5701 ccgcgcagac gatgacgtca ctgcccggct gtatgcgcga ggttaccgac tgcggcctga
+     5761 gtttcttcaa gtgacgtaaa atcgtgttga ggccaacgcc cataatgcgg gctgttgccc
+     5821 ggcatccaac gccattcatg gccatatcaa tgattttctg gtgcgtaccg ggttgagaag
+     5881 cggtgtaagt gaactgcagt tgccatgttt tacggcagtg agagcagaga tagcgctgat
+     5941 gtccggcggt gcttttgccg ttacgcacca ccccgtcagt agctgaacag gagggacagc
+     6001 tgatagaaac agaagccatc tagtatttcc cctctttctc tagtattaaa caaaattatt
+     6061 tgtagaggct gtttcgtcct cacggactca tcagaccgga aagcacatcc ggtgacagct
+     6121 cagctgtgct cattatatct atcactgata gggatgtcaa tctctatcac tgatagggag
+     6181 gtcagtgcgt cctgctgaaa acagccaaca atcgttaagc gggagagcag aaacaaaaaa
+     6241 agccccccgt tagggaggcc ttcaataatt ggaggtcccg aaatggacgc agtggcctag
+     6301 ctcaatttct gagaactgtc attctcggaa taccttcatg agacaataac ttccactaaa
+     6361 tcagtaagtt ggcagcatca cctacctcaa tgtgtatttt ttgtttttcg tattttcaat
+     6421 gaaacaaaag caatttttta ctatctttcg cgtttcattg attaacgact aaaatttgca
+     6481 ctacaggctt gcaagcccca ccaaatctaa tcccatcgga tcccgaataa tccaatgtcc
+     6541 tcccggtttt tttcgtactt caagtgaatc aatacactca ccagcctctg gttgttgtga
+     6601 atattgagtt gcaaatatgt cggtgtttgc tggtgatttg aacaatatga gataaagccc
+     6661 tcatgacgag ggcgtaacat tactcagcaa taaactgata ttccgtcagg ctggaatact
+     6721 cttcgccagg acgcaggaag cagtccggtt gcggccattc agggtggttc gggctgtccg
+     6781 gtagaaactc gctttccaga gccagccctt gccagtcggc gtaaggttcg gttccccgcg
+     6841 acggtgtgcc gccgaggaag ttgccggagt agaattgcag agccggagcg gtggtgtaga
+     6901 ccttcagctg caatttttca tctgctgacc agacatgcgc cgccactttc ttgccatcgc
+     6961 ctttggcctg taacaagaat gcgtgatcgt aacctttcac tttgcgctga tcgtcgtcgg
+     7021 caagaaactc actggcgatg attttggcgc tgcggaaatc aaaagacgtt ccggcgacag
+     7081 atttcaggcg ccaaaagcct tgtatgcttc tgcctcgtga tacgcctatt tttataggtt
+     7141 aatgtcatga taataatggt ttcttagacg tcaggtggca cttttcgggg aaatgtg
+//
